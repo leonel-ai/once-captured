@@ -50,14 +50,15 @@ img {
 .jumbotron {
   min-height: 100vh;
   margin-bottom: 0;
-  background-color: white;
-  padding: 2em;
+  background-color: #e6e6e6;
+  padding: 2em 2em 0 2em;
 
   .grid-container {
+    background: $white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.25fr 1.6fr 0.9fr;
-    grid-template-areas: 0.5fr 1.6fr 0.9fr;
+    grid-template-rows: 0.25fr 1.6fr 0.75fr;
+    // grid-template-areas: 0.5fr 1.6fr 0.9fr;
 
     .brand {
       font-size: 2em;
