@@ -8,6 +8,10 @@ $color-deco: #191919;
 $arno: 'arno pro', serif;
 $bio: 'bio sans', sans-serif;
 
+body {
+  margin: 0;
+}
+
 ul {
   display: flex;
   justify-content: space-between;

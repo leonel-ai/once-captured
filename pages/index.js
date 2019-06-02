@@ -6,6 +6,7 @@ import Cards from '../components/cards'
 import Footer from '../components/footer'
 import '../styles/style.scss'
 
+
 const Home = () => (
   <div>
     <Head title="Home" />
@@ -20,8 +21,6 @@ const Home = () => (
         </Link>
       </div>
     </div>
-
-
 
     <div className="container-fluid">
       <div className="row pricing-block">
