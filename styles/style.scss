@@ -1,0 +1,149 @@
+$white: white;
+$text-light: #d8d6d6;
+$brass: #9a7966;
+$background: #151313;
+$gray: #d9d9d9;
+$color-deco: #191919;
+
+$arno: 'arno pro', serif;
+$bio: 'bio sans', sans-serif;
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul {
+  padding: 4px 16px;
+}
+li {
+  display: flex;
+  padding: 6px 8px;
+}
+a {
+  color: $white;
+  text-decoration: none;
+
+  &:hover {
+    color: $brass;
+    text-decoration: none;
+  }
+}
+p {
+  font-family: $bio;
+}
+.cta-btn {
+  padding: .5em 2em;
+  border: .1rem solid $text-light;
+  border-radius: 8px;
+  color: $text-light;
+  text-transform: uppercase;
+}
+
+// navbar
+
+nav {
+  .navbar-toggler {
+    &:focus {
+      outline: none;
+    }
+    .navbar-toggler-icon {
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  .navbar-nav {
+    background: #d9d9d9;
+    .nav-item {
+      .nav-link {
+        color: black;
+      }
+    }
+  }
+}
+
+// banner
+
+.jumbotron {
+  background: rgba(0,0,0,0.45) url('/static/banner.jpg') center / cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin-bottom: 0;
+
+  .banner-block {
+    text-align: right;
+    color: $text-light;
+    padding-top: 3em;
+
+    h1 {
+      font-family: $arno;
+      font-weight: 700;
+      font-size: 5em;
+    }
+    p {
+      font-size: 2em;
+    }
+  }
+}
+
+.container-fluid {
+  position: relative;
+  height: 600px;
+  background: $background;
+
+  .pricing-block {
+    .card-deck {
+      padding: 4em 0;
+      max-width: 1000px;
+      margin: 0 auto;
+
+      .card {
+        transform: scale(1);
+        transition: .2s;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  .highlight-block {
+    .container {
+      border: 2px solid red;
+
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+  }
+
+  .description-block {
+    background: $background;
+    color: $white;
+    .content {
+      margin: 0 auto;
+      max-width: 1000px;
+      padding: 6em 4em;
+    }
+  }
+
+  .contact-block {
+    background: $background;
+    color: $white;
+    .form-container {
+      margin: 0 auto;
+      max-width: 1000px;
+      padding: 6em 4em;
+
+      input[type="text"] {
+        padding: 0 14em .25em .5em;
+        background-color: $background;
+        border: none;
+        border-bottom: 1px solid $text-light;
+        text-transform: uppercase;
+        color: $text-light;
+        outline: none;
+      }
+    }
+  }
+
+}
