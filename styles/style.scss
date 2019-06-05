@@ -33,7 +33,7 @@ a {
   outline: none;
 
   &:hover {
-    color: $brass;
+    color: $color-accent;
     text-decoration: none;
     outline: none;
   }
@@ -52,6 +52,7 @@ img {
   margin-bottom: 0;
   background-color: $white;
   padding-bottom: 0;
+  padding-top: 0;
 
   .grid-container {
     background: $white;
@@ -76,16 +77,28 @@ img {
       justify-self: flex-end;
       padding: 0 2em;
       border: none;
-      color: $color-accent;
       font-size: calc(0.3vw + 12.17px);
-      &::after{
-        content: ' \2192';
+      transform: translateX(0);
+      transition: all .3s ease-in-out;
+      .icon-block {
+        display:block;
+        padding: .5em;
+      }
+      a {
+        color: $color-accent;
+        &:hover {
+          color: $color-content-text;
+        }
+      }
+      &:hover {
+        transform: translateX(-20%);
+        transition: all .3s ease-out;
       }
     }
 
     .banner-block {
       align-self: end;
-      padding: 6em 0 0 3em;
+      padding: 8em 0 0 3em;
       .banner-title {
         font-family: $brandon;
         font-weight: 700;
@@ -128,9 +141,6 @@ img {
         text-transform: uppercase;
         margin: 0px 0px 10px;
       }
-      &::after {
-        content: ' \2192';
-      }
     }
     .services-block {
       align-self: end;
@@ -147,9 +157,9 @@ img {
         text-transform: uppercase;
         margin: 0px 0px 10px;
       }
-      &::after {
-        content: ' \2192';
-      }
+    }
+    .subpage-link {
+      padding: 1em 0;
     }
 }
 }

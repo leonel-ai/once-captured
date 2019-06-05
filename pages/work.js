@@ -3,12 +3,12 @@ import Head from '../components/head'
 import '../styles/style.scss'
 
 
-const Luxe1 = () => (
+const Luxe2 = () => (
   <div className="subpage">
-    <Head title="ONCE | Luxe 001" />
+    <Head title="ONCE | Work" />
 
     <div className="content content--grid content--second">
-      <h3 className="content__title">LUXE<br/>001</h3>
+      <h3 className="content__title">A Lifetime<br/>of Memories</h3>
       <p className="content__text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -19,6 +19,7 @@ const Luxe1 = () => (
       <div className="social">
         <a className="social__link" href="instagram.com">IG</a>
         <a className="social__link" href="facebook.com">FB</a>
+        <a className="social__link" href="vimeo.com">Vimeo</a>
       </div>
       <div className="reel">
         <img className="reel__img" src="/static/ring-hair.jpg" alt="image"/>
@@ -34,4 +35,4 @@ const Luxe1 = () => (
  </div>
 )
 
-export default Luxe1
+export default Luxe2

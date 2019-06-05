@@ -16,7 +16,11 @@ class Home extends React.Component {
         <div className="brand">
           <img className="img-fluid" src="/static/logo.svg" alt="brand logo"/>
         </div>
-        <div className="cta">Work with us</div>
+        <div className="cta">
+          <a href="/contact" className="icon-block">
+            Work with us &nbsp;&nbsp;<i className="fas fa-long-arrow-alt-right"></i>
+          </a>
+        </div>
         <div className="banner-block">
           <h1 className="banner-title display-4">YOUR<br/>MOMENT</h1>
           <h1 className="banner-subhead">ONCE Captured</h1>
@@ -24,11 +28,17 @@ class Home extends React.Component {
         </div>
         <div className="work-block">
           <h2 className="work-title">WORK</h2>
-          <p className="work-content">Creating amazing work that does blah blah blah.</p>
+          <a href="/work" className="subpage-link">
+            <p className="work-content">Creating amazing work that does blah blah blah.</p>
+            <i className="fas fa-long-arrow-alt-right"></i>
+          </a>
         </div>
         <div className="services-block">
           <h2 className="services-title">SERVICES</h2>
-          <p className="services-content">Creating amazing work that does blah blah blah.</p>
+          <a href="/services" className="subpage-link">
+            <p className="services-content">Creating amazing work that does blah blah blah.</p>
+            <i className="fas fa-long-arrow-alt-right"></i>
+          </a>
         </div>
       </div>
     </div>
