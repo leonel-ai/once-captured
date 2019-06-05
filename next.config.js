@@ -20,7 +20,10 @@ module.exports = withSass({
   },
   exportPathMap: function() {
     return {
-      '/': { page: '/' }
+      '/': { page: '/' },
+      '/services': { page: '/services'},
+      '/work': { page: '/work'},
+      '/contact': { page: 'contact'}
     }
   }
 })
