@@ -8,7 +8,15 @@ const Luxe1 = () => (
     <Head title="ONCE | Services" />
 
     <div className="content content--grid content--second">
-      <h3 className="content__title">The Star<br/>Treatment</h3>
+      {/* <div className="banner-block">
+          <h1 className="banner-title display-4">YOUR<br/>MOMENT</h1>
+          <h1 className="banner-subhead">ONCE Captured</h1>
+        </div> */}
+      <div className="services-block">
+        <h3 className="content__title display-4">Lifelong<br/>Memories</h3>
+        <h1 className="content__title-subhead">ONCE Captured</h1>
+      </div>
+
       <p className="content__text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
