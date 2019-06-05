@@ -50,8 +50,8 @@ img {
 .jumbotron {
   min-height: 100vh;
   margin-bottom: 0;
-  background-color: #e6e6e6;
-  padding: 2em 2em 0 2em;
+  background-color: $white;
+  padding-bottom: 0;
 
   .grid-container {
     background: $white;
@@ -157,7 +157,6 @@ img {
 .container-fluid {
   position: relative;
   height: 600px;
-  // background: $color-deco;
 
   .pricing-block {
     // background: $color-deco;
@@ -197,7 +196,8 @@ img {
     position: relative;
     .video-container {
       height: 100%;
-      margin: 0px -12px;
+      width: 100%;
+      margin: 0 auto;
       .video-item {
         position: relative;
         width: calc(100% - 24px);
@@ -208,25 +208,27 @@ img {
         transition: padding-bottom 0.5s ease 0s;
         overflow: hidden;
         .video-overlay {
-          -webkit-box-align: center;
-          align-items: center;
-          bottom: 0px;
-          color: rgb(255, 255, 255);
-          cursor: pointer;
-          display: flex;
-          height: 100%;
-          left: 0px;
-          right: 0px;
-          padding-top: 0px;
-          padding-bottom: 0px;
-          padding-left: 20px;
-          padding-right: 20px;
-          position: absolute;
-          top: 0px;
-          width: 100%;
-          z-index: 1;
-          transition: opacity 0.5s ease 0s, background 0.2s ease 0s;
-
+          a {
+            pointer-events: all;
+            -webkit-box-align: center;
+            align-items: center;
+            bottom: 0px;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            display: flex;
+            height: 100%;
+            left: 0px;
+            right: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            z-index: 1;
+            transition: opacity 0.5s ease 0s, background 0.2s ease 0s;
+          }
           .icon-play {
             margin-right: 25px;
             max-width: 52px;
@@ -263,79 +265,37 @@ img {
             }
           }
         }
-        .plyr {
-          -moz-osx-font-smoothing: auto;
-          -webkit-font-smoothing: subpixel-antialiased;
-          direction: ltr;
-          font-family: $brandon;
-          -webkit-font-feature-settings: "tnum";
-          font-feature-settings: "tnum";
-          font-variant-numeric: tabular-nums;
-          font-weight: 500;
-          line-height: 1.7;
-          max-width: 100%;
-          min-width: 200px;
-          position: relative;
-          text-shadow: none;
-          transition: box-shadow .3s ease;
-        }
-        .plyr--video {
+        .video-player {
           background: #000;
           overflow: hidden;
           transition: -webkit-transform .4s ease;
           transition: transform .4s ease;
           transition: transform .4s ease,-webkit-transform .4s ease;
+          .video-wrapper {
+            background: #000;
+            border-radius: inherit;
+            overflow: hidden;
+            position: relative;
+            z-index: 0;
+            height: 0;
+            padding-bottom: 56.25%;
+            .video-embed__container {
+              position: relative;
+              padding: 56.25% 0 0 0;
+              iframe {
+                position:absolute;
+                top:-6em;
+                left:0;
+                width:100%;
+                height:100%;
+              }
+            }
+            .video__poster {
+              background: url('https://i.vimeocdn.com/video/770745901.jpg');
+            }
+          }
         }
-        .plyr--full-ui {
-          box-sizing: border-box;
-        }
-        .plyr--video.plyr--hide-controls .plyr__controls {
-          opacity: 0;
-          pointer-events: none;
-          -webkit-transform: translateY(100%);
-          transform: translateY(100%);
-        }
-        .plyr__controls {
-          -webkit-align-items: center;
-          align-items: center;
-          display: -webkit-flex;
-          display: flex;
-          -webkit-justify-content: flex-end;
-          justify-content: flex-end;
-          text-align: center;
-        }
-        .plyr--video .plyr__controls {
-          background: linear-gradient(transparent,rgba(0,0,0,.7));
-          border-bottom-left-radius: inherit;
-          border-bottom-right-radius: inherit;
-          bottom: 0;
-          color: #fff;
-          left: 0;
-          padding: 20px 5px 5px;
-          position: absolute;
-          right: 0;
-          transition: opacity .4s ease-in-out,-webkit-transform .4s ease-in-out;
-          transition: opacity .4s ease-in-out,transform .4s ease-in-out;
-          transition: opacity .4s ease-in-out,transform .4s ease-in-out,-webkit-transform .4s ease-in-out;
-          z-index: 3;
-        }
-        .plyr--full-ui *, .plyr--full-ui :after, .plyr--full-ui :before {
-          box-sizing: inherit;
-        }
-        .plyr__video-wrapper {
-          background: #000;
-          border-radius: inherit;
-          overflow: hidden;
-          position: relative;
-          z-index: 0;
-        }
-        .video {
-          cursor: pointer;
-          object-fit: cover;
-          width: 100%;
-          transition: transform 0.4s ease 0s;
-        }
-        .video-overlay:hover + video, .video-overlay:hover + .plyr--video, .video-overlay:hover + img {
+        .video-overlay:hover + .video-player, .video-overlay:hover + .video-item, .video-overlay:hover + img {
           transform: scale(1.1);
           z-index: -1;
         }

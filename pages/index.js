@@ -5,14 +5,16 @@ import Footer from '../components/footer'
 import '../styles/style.scss'
 
 
-const Home = () => (
-  <div>
+class Home extends React.Component {
+  render() {
+    return (
+    <div>
     <Head title="ONCE Cinema" />
 
     <div className="jumbotron jumbotron-fluid">
       <div className="grid-container">
         <div className="brand">
-          <img class="img-fluid" src="/static/logo.svg" alt="brand logo"/>
+          <img className="img-fluid" src="/static/logo.svg" alt="brand logo"/>
         </div>
         <div className="cta">Work with us</div>
         <div className="banner-block">
@@ -51,23 +53,19 @@ const Home = () => (
         <div className="video-container">
           <div className="video-item">
             <div className="video-overlay">
-              <svg width="52px" height="52px" viewBox="-5 -5 52 52" className="icon-play"><g id="Group-5" transform="matrix(1,0,0,1,2,2)"><g id="Triangle-2" transform="matrix(-3.82857e-16,1,-1,-3.82857e-16,39.1429,-1.85714)"><path d="M20.5,14L27,23.286L14,23.286L20.5,14Z" fill="rgb(239,58,80)"></path></g><circle id="Oval" cx="19" cy="19" r="19" fill="none" stroke="rgb(239,58,80)" stroke-width="3px"></circle></g></svg>
+              <a href="https://player.vimeo.com/video/326661659" target="_blank" alt="highlight reel">
+              <svg width="52px" height="52px" viewBox="-5 -5 52 52" className="icon-play"><g id="Group-5" transform="matrix(1,0,0,1,2,2)"><g id="Triangle-2" transform="matrix(-3.82857e-16,1,-1,-3.82857e-16,39.1429,-1.85714)"><path d="M20.5,14L27,23.286L14,23.286L20.5,14Z" fill="rgb(239,58,80)"></path></g><circle id="Oval" cx="19" cy="19" r="19" fill="none" stroke="rgb(239,58,80)" strokeWidth="3px"></circle></g></svg>
               <h3 className="video-headline">Watch Reel</h3>
+              </a>
             </div>
-            <div className="plyr plyr--full-ui plyr--video plyr--html5 plyr--hide-controls plyr--pip-supported plyr--fullscreen-enabled plyr--playing plyr__poster-enabled">
-              <div className="plyr__controls"></div>
-              <div className="plyr__video-wrapper">
-                <video poster="https://unionco.imgix.net/uploads/Digital-Marketing-Agency-Charlotte-Reel.jpg?w=1800&amp;fm=jpg&amp;lossless=1" preload="auto" data-index="0" autoplay="" loop="" className="video">
-                <source src="https://player.vimeo.com/video/326661659?background=1" type="video/mp4"/>
-                </video>
-                <link rel="preload" as="video" href="https://player.vimeo.com/video/326661659?background=1"></link>
+            <div className="video-player">
+              <div className="video-wrapper">
+                <div className="video-embed__container" poster="https://i.vimeocdn.com/video/770745901.jpg">
+                <iframe src="https://player.vimeo.com/video/326661659?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" frameBorder="0" allow="autoplay;"></iframe>
+                </div>
+                <div className="video__poster"></div>
               </div>
-]            </div>
-"
-
-            {/* <div className="embed-responsive embed-responsive-16by9">
-              <iframe className="embed-responsive-item" src="https://player.vimeo.com/video/326661659?background=1" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
@@ -89,7 +87,8 @@ const Home = () => (
 
     </div>
     <Footer/>
-  </div>
-)
+  </div> )
+  }
+}
 
 export default Home
