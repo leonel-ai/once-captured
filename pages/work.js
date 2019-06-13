@@ -17,9 +17,9 @@ const Luxe2 = () => (
         ex ea commodo consequat.
       </p>
       <div className="social">
-        <a className="social__link" href="instagram.com">IG</a>
-        <a className="social__link" href="facebook.com">FB</a>
-        <a className="social__link" href="vimeo.com">Vimeo</a>
+      <a className="social__link" href="http://instagram.com/once.cinema/" target="_blank">IG</a>
+        <a className="social__link" href="http://facebook.com/oncecinema.co" target="_blank">FB</a>
+        <a className="social__link" href="http://vimeo.com/oncecinema" target="_blank">Vimeo</a>
       </div>
       <div className="reel">
         <img className="reel__img" src="/static/ring-hair.jpg" alt="image"/>
