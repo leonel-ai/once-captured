@@ -55,20 +55,48 @@ class Luxe1 extends React.Component {
 
         <div className="package__text">
           <div className={this.state.act1 ? "luxe_01 active" : "luxe_01" }>
-            <h2>Luxe 001</h2>
-            <p>Details about it.</p>
+            <h2>LUXE I</h2>
+            <ul>
+              <li><p><span>PARTIAL COVERAGE</span><br/>6 hours</p></li>
+              <li><p><span>1 CINEMATOGRAPHER</span><br/>5 Years of Experience</p></li>
+              <li><p><span>2 - 3 MINUTE FILM</span><br/>Online + Downloadable</p></li>
+              <li><p><span>HIGHLIGHT FILM</span><br/>30 Sec. to 1 Min</p></li>
+              <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
+              <li><p><span>PRICE</span><br/>$1000 - $1200</p></li>
+            </ul>
           </div>
           <div className={this.state.act2 ? "luxe_02 active" : "luxe_02" }>
-            <h2>Luxe 002</h2>
-            <p>Details about it.</p>
+            <h2>Luxe II</h2>
+            <ul>
+              <li><p><span>PARTIAL COVERAGE</span><br/>6 hours</p></li>
+              <li><p><span>1 CINEMATOGRAPHER</span><br/>5 Years of Experience</p></li>
+              <li><p><span>2 - 3 MINUTE FILM</span><br/>Online + Downloadable</p></li>
+              <li><p><span>HIGHLIGHT FILM</span><br/>30 Sec. to 1 Min</p></li>
+              <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
+              <li><p><span>PRICE</span><br/>$1000 - $1200</p></li>
+            </ul>
           </div>
           <div className={this.state.act3 ? "luxe_03 active" : "luxe_03" }>
-            <h2>Luxe 003</h2>
-            <p>Details about it.</p>
+            <h2>Luxe III</h2>
+            <ul>
+              <li><p><span>PARTIAL COVERAGE</span><br/>6 hours</p></li>
+              <li><p><span>1 CINEMATOGRAPHER</span><br/>5 Years of Experience</p></li>
+              <li><p><span>2 - 3 MINUTE FILM</span><br/>Online + Downloadable</p></li>
+              <li><p><span>HIGHLIGHT FILM</span><br/>30 Sec. to 1 Min</p></li>
+              <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
+              <li><p><span>PRICE</span><br/>$1000 - $1200</p></li>
+            </ul>
           </div>
           <div className={this.state.act4 ? "luxe_04 active" : "luxe_04" }>
-            <h2>Luxe 004</h2>
-            <p>Details about it.</p>
+            <h2>Luxe IV</h2>
+            <ul>
+              <li><p><span>PARTIAL COVERAGE</span><br/>6 hours</p></li>
+              <li><p><span>1 CINEMATOGRAPHER</span><br/>5 Years of Experience</p></li>
+              <li><p><span>2 - 3 MINUTE FILM</span><br/>Online + Downloadable</p></li>
+              <li><p><span>HIGHLIGHT FILM</span><br/>30 Sec. to 1 Min</p></li>
+              <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
+              <li><p><span>PRICE</span><br/>$1000 - $1200</p></li>
+            </ul>
           </div>
         </div>
 
@@ -93,16 +121,16 @@ class Luxe1 extends React.Component {
         <a className="content__back--link" href="/"><button className="content__back" aria-label="back to main view"></button></a>
 
         <div className="package package__block1">
-          <h2>LUXE 001</h2>
+          <h2>01</h2>
         </div>
         <div className="package package__block2">
-          <h2>LUXE 002</h2>
+          <h2>02</h2>
         </div>
         <div className="package package__block3">
-          <h2>LUXE 003</h2>
+          <h2>03</h2>
         </div>
         <div className="package package__block4">
-          <h2>LUXE 004</h2>
+          <h2>04</h2>
         </div>
 
       </div>
