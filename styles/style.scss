@@ -477,6 +477,7 @@ img {
         border: 1px solid $color-social;
         padding: .5em 4em;
         &:hover {
+          border-color: $color-accent;
           background-color: $color-accent;
           color: $white;
         }
