@@ -16,21 +16,25 @@ class Luxe1 extends React.Component {
 
   handleClick1 = (event) => {
     console.log(event.currentTarget);
+    this.setState({act2: false, act3: false, act4: false});
     this.setState({act1: !this.state.act1});
   }
 
   handleClick2 = (event) => {
     console.log(event.currentTarget);
+    this.setState({act1: false, act3: false, act4: false});
     this.setState({act2: !this.state.act2});
   }
 
   handleClick3 = (event) => {
     console.log(event.currentTarget);
+    this.setState({act1: false, act2: false, act4: false});
     this.setState({act3: !this.state.act3});
   }
 
   handleClick4 = (event) => {
     console.log(event.currentTarget);
+    this.setState({act1: false, act2: false, act3: false});
     this.setState({act4: !this.state.act4});
   }
 
@@ -40,22 +44,34 @@ class Luxe1 extends React.Component {
       <Head title="ONCE | Services" />
 
       <div className="content content--grid content--second">
-        {/* <div className="banner-block">
-            <h1 className="banner-title display-4">YOUR<br/>MOMENT</h1>
-            <h1 className="banner-subhead">ONCE Captured</h1>
-          </div> */}
         <div className="services__block">
           <h3 className="content__title display-4">Lifelong<br/>Memories</h3>
           <h1 className="content__title-subhead">ONCE Captured</h1>
         </div>
 
         <p className="content__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat. Duis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat.
+          Something here about selecting the package for more info on the right.
         </p>
+
+        <div className="package__text">
+          <div className={this.state.act1 ? "luxe_01 active" : "luxe_01" }>
+            <h2>Luxe 001</h2>
+            <p>Details about it.</p>
+          </div>
+          <div className={this.state.act2 ? "luxe_02 active" : "luxe_02" }>
+            <h2>Luxe 002</h2>
+            <p>Details about it.</p>
+          </div>
+          <div className={this.state.act3 ? "luxe_03 active" : "luxe_03" }>
+            <h2>Luxe 003</h2>
+            <p>Details about it.</p>
+          </div>
+          <div className={this.state.act4 ? "luxe_04 active" : "luxe_04" }>
+            <h2>Luxe 004</h2>
+            <p>Details about it.</p>
+          </div>
+        </div>
+
         <div className="social">
           <a className="social__link" href="http://instagram.com/once.cinema/" target="_blank">IG</a>
           <a className="social__link" href="http://facebook.com/oncecinema.co" target="_blank">FB</a>
