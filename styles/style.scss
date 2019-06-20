@@ -459,9 +459,27 @@ img {
     }
 
     ul {
+      padding: 0;
       li p span {
         font-family: $brandon;
         font-weight: 700;
+      }
+    }
+    p {
+      span {
+        font-family: $brandon;
+        font-weight: 700;
+      }
+    }
+    .contact-cta {
+      margin-top: 2em;
+      .contact-btn {
+        border: 1px solid $color-social;
+        padding: .5em 4em;
+        &:hover {
+          background-color: $color-accent;
+          color: $white;
+        }
       }
     }
   }
@@ -624,7 +642,7 @@ img {
         margin: 0;
       }
       .package__text {
-        max-width: 320px;
+        max-width: 380px;
         margin: 0;
         position: absolute;
         top: -14em;

@@ -50,7 +50,7 @@ class Luxe1 extends React.Component {
         </div>
 
         <p className="content__text">
-          Something here about selecting the package for more info on the right.
+          Something here about selecting the package for more info on the right. With state of the art equipment or something.
         </p>
 
         <div className="package__text">
@@ -64,39 +64,55 @@ class Luxe1 extends React.Component {
               <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
               <li><p><span>PRICE</span><br/>$1000 - $1200</p></li>
             </ul>
+            <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages
+              also available upon request.</p>
+            <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
+            <p className="contact-cta"><a href="/contact" className="contact-btn">Book a date</a></p>
           </div>
           <div className={this.state.act2 ? "luxe_02 active" : "luxe_02" }>
             <h2>Luxe II</h2>
             <ul>
-              <li><p><span>PARTIAL COVERAGE</span><br/>6 hours</p></li>
+              <li><p><span>HALF-DAY COVERAGE</span><br/>8 hours</p></li>
               <li><p><span>1 CINEMATOGRAPHER</span><br/>5 Years of Experience</p></li>
-              <li><p><span>2 - 3 MINUTE FILM</span><br/>Online + Downloadable</p></li>
+              <li><p><span>4 - 6 MINUTE FILM</span><br/>Online + Downloadable</p></li>
               <li><p><span>HIGHLIGHT FILM</span><br/>30 Sec. to 1 Min</p></li>
               <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
-              <li><p><span>PRICE</span><br/>$1000 - $1200</p></li>
+              <li><p><span>PRICE</span><br/>$1800 - $2000</p></li>
             </ul>
+            <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages
+              also available upon request.</p>
+            <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
+            <p className="contact-cta"><a href="/contact" className="contact-btn">Book a date</a></p>
           </div>
           <div className={this.state.act3 ? "luxe_03 active" : "luxe_03" }>
             <h2>Luxe III</h2>
             <ul>
-              <li><p><span>PARTIAL COVERAGE</span><br/>6 hours</p></li>
-              <li><p><span>1 CINEMATOGRAPHER</span><br/>5 Years of Experience</p></li>
-              <li><p><span>2 - 3 MINUTE FILM</span><br/>Online + Downloadable</p></li>
+              <li><p><span>ALL DAY COVERAGE</span><br/>10 hours</p></li>
+              <li><p><span>2 CINEMATOGRAPHERS</span><br/>5+ Years of Experience</p></li>
+              <li><p><span>6 - 8 MINUTE FILM</span><br/>Online + Downloadable</p></li>
               <li><p><span>HIGHLIGHT FILM</span><br/>30 Sec. to 1 Min</p></li>
               <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
-              <li><p><span>PRICE</span><br/>$1000 - $1200</p></li>
+              <li><p><span>PRICE</span><br/>$3200 - $3400</p></li>
             </ul>
+            <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages
+              also available upon request.</p>
+            <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
+            <p className="contact-cta"><a href="/contact" className="contact-btn">Book a date</a></p>
           </div>
           <div className={this.state.act4 ? "luxe_04 active" : "luxe_04" }>
             <h2>Luxe IV</h2>
             <ul>
-              <li><p><span>PARTIAL COVERAGE</span><br/>6 hours</p></li>
-              <li><p><span>1 CINEMATOGRAPHER</span><br/>5 Years of Experience</p></li>
-              <li><p><span>2 - 3 MINUTE FILM</span><br/>Online + Downloadable</p></li>
+              <li><p><span>FULL COVERAGE</span><br/>12 hours</p></li>
+              <li><p><span>2 CINEMATOGRAPHERS</span><br/>5+ Years of Experience</p></li>
+              <li><p><span>10 - 15 MINUTE FILM</span><br/>Online + Downloadable</p></li>
               <li><p><span>HIGHLIGHT FILM</span><br/>30 Sec. to 1 Min</p></li>
               <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
-              <li><p><span>PRICE</span><br/>$1000 - $1200</p></li>
+              <li><p><span>PRICE</span><br/>$4000 - $4200</p></li>
             </ul>
+            <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages
+              also available upon request.</p>
+            <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
+            <p className="contact-cta"><a href="/contact" className="contact-btn">Book a date</a></p>
           </div>
         </div>
 
