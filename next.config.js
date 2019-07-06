@@ -23,7 +23,7 @@ module.exports = withSass({
       '/': { page: '/' },
       '/services': { page: '/services'},
       '/work': { page: '/work'},
-      '/contact': { page: 'contact'}
+      '/contact': { page: '/contact'}
     }
   }
 })

@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from '../components/head'
-// import Cards from '../components/cards'
 import Footer from '../components/footer'
 import '../styles/style.scss'
 
