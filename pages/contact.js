@@ -1,6 +1,9 @@
 import React from 'react'
 import Head from '../components/head'
 import '../styles/style.scss'
+import axios from 'axios';
+
+const API_PATH = '/api/contact/contact.php';
 
 
 class Contact extends React.Component {
@@ -13,17 +16,27 @@ class Contact extends React.Component {
       date: '',
       location: '',
       phone: '',
-      photographer: '',
-      referral: '',
-      priority: '',
       message: '',
+      mailSent: false,
+      error: null
     }
   }
 
-  handleFormSubmit( event ) {
-    event.preventDefault();
-    console.log(this.state);
-  }
+  handleFormSubmit = e => {
+    e.preventDefault();
+    axios({
+      method: 'post',
+      url: `${API_PATH}`,
+      headers: { 'content-type': 'application/json' },
+      data: this.state
+    })
+      .then(result => {
+        this.setState({
+          mailSent: result.data.sent
+        })
+      })
+      .catch(error => this.setState({ error: error.message }));
+  };
 
   render() {
     return (
@@ -57,18 +70,6 @@ class Contact extends React.Component {
             <input type="tel" id="phone" name="phone" value={this.state.phone}
               onChange={e => this.setState({ phone: e.target.value })} />
 
-            <label>Who is your photographer?</label>
-            <input type="text" id="photographer" name="photographer" value={this.state.photographer}
-              onChange={e => this.setState({ photographer: e.target.value })} />
-
-            <label>How did you find us?</label>
-            <input type="text" id="referral" name="referral" value={this.state.referral}
-              onChange={e => this.setState({ referral: e.target.value })} />
-
-            <label>What's most important to you in your film?</label>
-            <input type="text" id="priority" name="priority" value={this.state.priority}
-              onChange={e => this.setState({ priority: e.target.value })} />
-
             <label>Tell us about yourself!</label>
             <textarea type="text" rows="2" id="message" name="message" value={this.state.message}
               onChange={e => this.setState({ message: e.target.value })}></textarea>
@@ -76,6 +77,9 @@ class Contact extends React.Component {
             <input type="submit" value="Send"
               onClick={e => this.handleFormSubmit(e)} />
 
+            {this.state.mailSent &&
+              <div>Thank you for contacting us at ONCE!</div>
+            }
           </form>
           </div>
 
