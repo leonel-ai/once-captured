@@ -65,7 +65,7 @@ class Luxe1 extends React.Component {
               <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
               <li><p><span>PRICE</span><br/>$1000 - $1200</p></li>
             </ul>
-            <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages
+            <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
             <p className="contact-cta"><a href="/contact" className="contact-btn">Book a date</a></p>
@@ -80,7 +80,7 @@ class Luxe1 extends React.Component {
               <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
               <li><p><span>PRICE</span><br/>$1800 - $2000</p></li>
             </ul>
-            <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages
+            <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
             <p className="contact-cta"><a href="/contact" className="contact-btn">Book a date</a></p>
@@ -95,7 +95,7 @@ class Luxe1 extends React.Component {
               <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
               <li><p><span>PRICE</span><br/>$3200 - $3400</p></li>
             </ul>
-            <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages
+            <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
             <p className="contact-cta"><a href="/contact" className="contact-btn">Book a date</a></p>
@@ -110,7 +110,7 @@ class Luxe1 extends React.Component {
               <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
               <li><p><span>PRICE</span><br/>$4000 - $4200</p></li>
             </ul>
-            <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages
+            <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
             <p className="contact-cta"><a href="/contact" className="contact-btn">Book a date</a></p>
