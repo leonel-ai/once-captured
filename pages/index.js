@@ -27,15 +27,15 @@ class Home extends React.Component {
           <p className="lead">Wedding &amp; event cinematography with a story to tell.</p>
         </div>
         <div className="work-block">
+        <a href="/work" className="subpage-link">
           <h2 className="work-title">WORK</h2>
-          <a href="/work" className="subpage-link">
             <p className="work-content">Creating amazing work that does blah blah blah.</p>
             <i className="fas fa-long-arrow-alt-right"></i>
           </a>
         </div>
         <div className="services-block">
-          <h2 className="services-title">SERVICES</h2>
           <a href="/services" className="subpage-link">
+          <h2 className="services-title">SERVICES</h2>
             <p className="services-content">Creating amazing work that does blah blah blah.</p>
             <i className="fas fa-long-arrow-alt-right"></i>
           </a>

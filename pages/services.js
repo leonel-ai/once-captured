@@ -50,7 +50,8 @@ class Luxe1 extends React.Component {
         </div>
 
         <p className="content__text">
-          Something here about selecting the package for more info on the right. With state of the art equipment or something.
+          Select an option to view our media packages.
+          Looking for photography services? Contact us for details.
         </p>
 
         <div className="package__text">
