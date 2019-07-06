@@ -3,8 +3,8 @@ import Head from '../components/head'
 import '../styles/style.scss'
 
 
-const Contact = () => (
-  <div className="subpage">
+class Contact extends React.Component {
+  <div className="subpage" id="contact">
     <Head title="ONCE | Contact" />
 
     <div className="form-container">

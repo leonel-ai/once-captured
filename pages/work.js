@@ -3,7 +3,7 @@ import Head from '../components/head'
 import '../styles/style.scss'
 
 
-const Luxe2 = () => (
+const Work = () => (
   <div className="subpage" id="work">
     <Head title="ONCE | Work" />
 
@@ -84,4 +84,4 @@ const Luxe2 = () => (
  </div>
 )
 
-export default Luxe2
+export default Work

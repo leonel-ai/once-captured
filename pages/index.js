@@ -45,20 +45,6 @@ class Home extends React.Component {
 
     <div className="container-fluid">
 
-      {/* <div className="row description-block">
-        <div className="content">
-          <h2 className="content__headline">ONCE IN A LIFETIME</h2>
-          <p>Whether it's a few weeks, a month, or a year away, you can rest assured you've taken care of the most essential steps
-            in planning your wedding day. Memories are fleeting, but at ONCE, we aim to capture those once in a lifetime moments
-            for generations to come. Given our love of cinema, you can expect to get the star treatment from beginning to end
-            with a silver-screen quality production.
-          </p>
-          <p>Reservations fill up fast. Contact us for availability today.</p>
-        </div>
-      </div> */}
-      {/* <div className="row pricing-block">
-        <Cards />
-      </div> */}
       <div className="row highlight-block">
         <div className="video-container">
           <div className="video-item">
@@ -79,12 +65,6 @@ class Home extends React.Component {
           </div>
         </div>
       </div>
-      {/* <div className="row contact-block">
-        <div className="content">
-          <h2 className="content__headline">Ready to get started?</h2>
-          <p className="content__text">Button here or something.</p>
-        </div>
-      </div> */}
 
     <div className="row footer-block">
         <div className="col-8">

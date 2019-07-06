@@ -3,7 +3,7 @@ import Head from '../components/head'
 import '../styles/style.scss'
 
 
-class Luxe1 extends React.Component {
+class Services extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -157,4 +157,4 @@ class Luxe1 extends React.Component {
   }
 }
 
-export default Luxe1
+export default Services
