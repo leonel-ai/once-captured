@@ -43,7 +43,6 @@ class Home extends React.Component {
     </div>
 
     <div className="container-fluid">
-
       <div className="row highlight-block">
         <div className="video-container">
           <div className="video-item">
@@ -64,16 +63,6 @@ class Home extends React.Component {
           </div>
         </div>
       </div>
-
-    <div className="row footer-block">
-        <div className="col-8">
-          <h5>ONCE CINEMA CO.</h5>
-        </div>
-        <div className="col-4">
-          <h5>Contact Us</h5>
-        </div>
-    </div>
-
     </div>
     <Footer/>
   </div> )

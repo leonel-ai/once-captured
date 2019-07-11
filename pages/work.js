@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from '../components/head'
+import Footer from '../components/footer'
 import '../styles/style.scss'
 
 
@@ -12,17 +13,10 @@ const Work = () => (
         <h3 className="gallery__title display-4">REAL<br/>ADVENTURE</h3>
         <h1 className="gallery__title-subhead">ONCE Captured</h1>
       </div>
-
-      <p className="gallery__text">
+        <p className="gallery__text">
       Whether it's a few weeks, a month, or a year away, you can rest assured you've taken care of the most essential steps
       in planning your wedding day.
       </p>
-
-      <div className="social">
-      <a className="social__link" href="http://instagram.com/once.cinema/" target="_blank">IG</a>
-        <a className="social__link" href="http://facebook.com/oncecinema.co" target="_blank">FB</a>
-        <a className="social__link" href="http://vimeo.com/oncecinema" target="_blank">Vimeo</a>
-      </div>
 
       <div className="gallery--wrapper item-1">
         <div className="gallery--item-content">
@@ -80,7 +74,7 @@ const Work = () => (
 
       <a className="content__back--link" href="/"><button className="content__back" aria-label="back to main view"></button></a>
     </div>
-
+    <Footer/>
  </div>
 )
 

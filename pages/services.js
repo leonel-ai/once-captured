@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from '../components/head'
+import Footer from '../components/footer'
 import '../styles/style.scss'
 
 
@@ -48,8 +49,7 @@ class Services extends React.Component {
           <h3 className="content__title display-4">Lifelong<br/>Memories</h3>
           <h1 className="content__title-subhead">ONCE Captured</h1>
         </div>
-
-        <p className="content__text">
+          <p className="content__text">
           Select an option to view our media packages.
           Looking for photography services? Contact us for details.
         </p>
@@ -117,12 +117,6 @@ class Services extends React.Component {
           </div>
         </div>
 
-        <div className="social">
-          <a className="social__link" href="http://instagram.com/once.cinema/" target="_blank">IG</a>
-          <a className="social__link" href="http://facebook.com/oncecinema.co" target="_blank">FB</a>
-          <a className="social__link" href="http://vimeo.com/oncecinema" target="_blank">Vimeo</a>
-        </div>
-
         <div className={this.state.act1 ? "pk__img package__img1 active" : "pk__img package__img1" } onClick={this.handleClick1}>
           <img className="reel__img" src="/static/wedding-temp.png" alt="image"/>
         </div>
@@ -151,7 +145,7 @@ class Services extends React.Component {
         </div>
 
       </div>
-
+      <Footer/>
    </div>
     )
   }
