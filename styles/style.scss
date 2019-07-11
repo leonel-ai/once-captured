@@ -468,7 +468,7 @@ img {
   }
 
   .container-fluid {
-    height: 500px;
+    min-height: 500px;
     .highlight-block {
       .video-container {
         .video-item {
@@ -761,6 +761,9 @@ img {
   }
 
   footer {
+    display: block;
+    position: relative;
+    background-color: $white;
     .footer-block {
       font-family: $calluna;
       padding: 2em 1em;
