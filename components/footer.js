@@ -3,13 +3,13 @@ import React from 'react'
 const Footer = props => (
   <footer>
     <div className="row footer-block">
-      <div className="col-6 logo-ft">
+      <div className="col-12 col-md-6 logo-ft">
         <img src="/static/logo.svg" alt="footer logo"/>
       </div>
-      <div className="col-4 contact-ft">
+      <div className="col-12 col-md-4 contact-ft">
         <a className="contact-btn" href="mailto:oncecinemaco@gmail.com">Contact Us</a>
       </div>
-      <div className="col-2 social-ft">
+      <div className="col-12 col-md-2 social-ft">
         <ul>
           <li>
             <a href="http://facebook.com/oncecinema.co">
