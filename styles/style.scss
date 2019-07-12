@@ -82,7 +82,7 @@ img {
       justify-self: center;
       padding: .5em 0 0;
       border: none;
-      font-size: calc(0.3vw + 12.17px);
+      font-size: calc(1vw + 12.17px);
       transform: translateX(0);
       transition: all .3s ease-in-out;
       .icon-block {
@@ -137,13 +137,13 @@ img {
       max-width: 70%;
       .work-title {
         margin-bottom: calc(1.4vw + 4.96px);
-        font-size: calc(0.3vw + 9.92px);
+        font-size: calc(1vw + 9.92px);
         font-weight: 700;
         color: rgb(167, 167, 167);
         letter-spacing: .15em;
         line-height: 1.425;
         text-transform: uppercase;
-        margin: .1em .75em 0 0;
+        margin: 0 .75em 0 0;
       }
       .work-content {
         display: none;
@@ -158,13 +158,13 @@ img {
       max-width: 70%;
       .services-title {
         margin-bottom: calc(1.4vw + 4.96px);
-        font-size: calc(0.3vw + 9.92px);
+        font-size: calc(1vw + 9.92px);
         font-weight: 700;
         color: rgb(167, 167, 167);
         letter-spacing: .15em;
         line-height: 1.425;
         text-transform: uppercase;
-        margin: .1em .75em 0 0;
+        margin: 0 .75em 0 0;
       }
       .services-content {
         display: none;
