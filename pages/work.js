@@ -9,7 +9,7 @@ const Work = () => (
     <Head title="ONCE | Work" />
 
     <div className="content content--grid content--second">
-      <div className="gallery__block ">
+      <div className="gallery__block">
         <h3 className="gallery__title display-4">REAL<br/>ADVENTURE</h3>
         <h1 className="gallery__title-subhead">ONCE Captured</h1>
       </div>
@@ -18,47 +18,37 @@ const Work = () => (
       in planning your wedding day.
       </p>
 
-      <div className="gallery--wrapper item-1">
+      <div className="gallery--wrapper item-1 order-1">
         <div className="gallery--item-content">
-          <a href="/">
             <img className="gallery__img" src="/static/bw.png" alt="image"/>
-          </a>
         </div>
       </div>
-      <div className="gallery--wrapper item-2">
+      <div className="gallery--wrapper item-2 order-2">
         <div className="gallery--item-content">
-          <a href="/">
             <img className="gallery__img" src="/static/boys.jpg" alt="image"/>
-          </a>
         </div>
       </div>
-      <div className="gallery--wrapper item-3">
+      <div className="gallery--wrapper item-3 order-4">
         <div className="gallery--item-content">
-          <a href="/">
             <img className="gallery__img" src="/static/reserved.jpg" alt="image"/>
-          </a>
         </div>
       </div>
-      <div className="gallery--wrapper item-4">
+      <div className="gallery--wrapper item-4 order-5">
         <div className="gallery--item-content landscape">
-          <a href="/">
             <img className="gallery__img" src="/static/mansion.jpg" alt="image"/>
-          </a>
         </div>
       </div>
-      <div className="gallery--wrapper item-5">
+      <div className="gallery--wrapper item-5 order-7">
         <div className="gallery--item-content">
-          <a href="/">
             <img className="gallery__img" src="/static/ring.jpg" alt="image"/>
-          </a>
         </div>
       </div>
 
-      <div className="gallery--subtext text-1">
+      <div className="gallery--subtext text-1 order-3">
         <p>Memories are fleeting, but at ONCE, we aim to capture those once in a lifetime moments
           for generations to come.</p>
       </div>
-      <div className="gallery--subtext text-2">
+      <div className="gallery--subtext text-2 order-6">
         <h5 className="cta">
           <a href="/services" target="_self" className="icon-block">
             Check out our services &nbsp;&nbsp;<i className="fas fa-long-arrow-alt-right"></i>
@@ -67,9 +57,9 @@ const Work = () => (
         <p>Given our love of cinema and experience in film production, you can expect to get the star treatment from beginning to end
           with a silver-screen quality production.</p>
       </div>
-      <div className="gallery--subtext text-3">
+      <div className="gallery--subtext text-3 order-8">
         <h3 className="gallery__title display-4">SAY<br/>I DO</h3>
-        <p>Reservations fill up fast. Contact us for availability today.</p>
+        <p>Reservations fill up fast.<br/>Contact us for availability today.</p>
         <p className="contact-cta"><a href="/contact" target="_self" className="contact-btn">Book a date</a></p>
       </div>
 

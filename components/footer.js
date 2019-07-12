@@ -2,6 +2,7 @@ import React from 'react'
 
 const Footer = props => (
   <footer>
+    <hr/>
     <div className="row footer-block">
       <div className="col-12 col-md-6 logo-ft">
         <img src="/static/logo.svg" alt="footer logo"/>
