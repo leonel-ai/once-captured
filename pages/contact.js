@@ -43,8 +43,10 @@ class Contact extends React.Component {
       <div className="subpage" id="contact">
         <Head title="ONCE | Contact" />
 
-          <div className="form-container">
-          <h2 className="form__headline">CONTACT US AT ONCE</h2>
+        <a className="content__back--link" href="/" target="_self"><button className="content__back" aria-label="back to main view"></button></a>
+
+        <div className="form-container">
+          <h2 className="form__headline">CONTACT US<br/>AT ONCE</h2>
           <form action="#">
             <label>Your Name *</label>
             <input type="text" id="name" name="name" value={this.state.name} required
@@ -81,7 +83,7 @@ class Contact extends React.Component {
               <div>Thank you for contacting us at ONCE!</div>
             }
           </form>
-          </div>
+        </div>
 
       </div>
     )

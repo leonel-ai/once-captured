@@ -49,10 +49,17 @@ class Services extends React.Component {
           <h3 className="content__title display-4">Lifelong<br/>Memories</h3>
           <h1 className="content__title-subhead">ONCE Captured</h1>
         </div>
+        <div className="services__preface">
+          <h5 className="cta">
+            <p className="icon-block">
+              Click to view our media packages &nbsp;&nbsp;<i className="fas fa-long-arrow-alt-right"></i>
+            </p>
+          </h5>
           <p className="content__text">
-          Select an option to view our media packages.
-          Looking for photography services? Contact us for details.
-        </p>
+            Looking to add photography services?
+            <br/>Contact us for details.
+          </p>
+        </div>
 
         <div className="package__text">
           <div className={this.state.act1 ? "luxe_01 active" : "luxe_01" }>
@@ -68,7 +75,7 @@ class Services extends React.Component {
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
-            <p className="contact-cta"><a href="/contact" className="contact-btn">Book a date</a></p>
+            <p className="contact-cta"><a href="/contact" target="_self" className="contact-btn">Book a date</a></p>
           </div>
           <div className={this.state.act2 ? "luxe_02 active" : "luxe_02" }>
             <h2>Luxe II</h2>
@@ -83,7 +90,7 @@ class Services extends React.Component {
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
-            <p className="contact-cta"><a href="/contact" className="contact-btn">Book a date</a></p>
+            <p className="contact-cta"><a href="/contact" target="_self" className="contact-btn">Book a date</a></p>
           </div>
           <div className={this.state.act3 ? "luxe_03 active" : "luxe_03" }>
             <h2>Luxe III</h2>
@@ -98,7 +105,7 @@ class Services extends React.Component {
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
-            <p className="contact-cta"><a href="/contact" className="contact-btn">Book a date</a></p>
+            <p className="contact-cta"><a href="/contact" target="_self" className="contact-btn">Book a date</a></p>
           </div>
           <div className={this.state.act4 ? "luxe_04 active" : "luxe_04" }>
             <h2>Luxe IV</h2>
@@ -113,23 +120,23 @@ class Services extends React.Component {
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
-            <p className="contact-cta"><a href="/contact" className="contact-btn">Book a date</a></p>
+            <p className="contact-cta"><a href="/contact" target="_self" className="contact-btn">Book a date</a></p>
           </div>
         </div>
 
         <div className={this.state.act1 ? "pk__img package__img1 active" : "pk__img package__img1" } onClick={this.handleClick1}>
-          <img className="reel__img" src="/static/wedding-temp.png" alt="image"/>
+          <img className="reel__img" src="/static/astros.jpg" alt="image"/>
         </div>
         <div className={this.state.act2 ? "pk__img package__img2 active" : "pk__img package__img2" } onClick={this.handleClick2}>
-          <img className="reel__img" src="/static/wedding-temp.png" alt="image"/>
+          <img className="reel__img" src="/static/pink.jpg" alt="image"/>
         </div>
         <div className={this.state.act3 ? "pk__img package__img3 active" : "pk__img package__img3" } onClick={this.handleClick3}>
-          <img className="reel__img" src="/static/wedding-temp.png" alt="image"/>
+          <img className="reel__img" src="/static/groomsmen.jpg" alt="image"/>
         </div>
         <div className={this.state.act4 ? "pk__img package__img4 active" : "pk__img package__img4" } onClick={this.handleClick4}>
-          <img className="reel__img" src="/static/wedding-temp.png" alt="image"/>
+          <img className="reel__img" src="/static/venue.jpg" alt="image"/>
         </div>
-        <a className="content__back--link" href="/"><button className="content__back" aria-label="back to main view"></button></a>
+        <a className="content__back--link" href="/" target="_self"><button className="content__back" aria-label="back to main view"></button></a>
 
         <div className="package package__block1">
           <h2>01</h2>
