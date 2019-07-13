@@ -49,13 +49,25 @@ class Services extends React.Component {
         <div className="services__block">
           <h3 className="content__title display-4">Lifelong<br/>Memories</h3>
           <h1 className="content__title-subhead">ONCE Captured</h1>
+          <div className="content__text--desktop">
+            <p>
+              By now, you've probably scoped out a few wedding sites. So what makes us different?
+            </p>
+            <p>
+              <b>We <em>get</em> you.</b> You're looking for exceptional style and quality.
+              Otherwise, you'd just hand the camera to your distant uncle and pray for the best. At ONCE, we know how to
+              bring your special event to life, long after the confetti has settled. Our cameras and crew are ready to give
+              you the A-list treatment in the role of your life.
+            </p>
+            <p><b>We take film seriously.</b> Ourselves? Not so much. Expect professional, creative, and friendly service come rain or shine.</p>
+            <p><b>We keep it short.</b></p>
+          </div>
         </div>
         <div className="services__preface">
           <h5 className="cta">
             <p className="icon-block">
-              Click to view our media packages &nbsp;&nbsp;<i className="fas fa-long-arrow-alt-right"></i>
+              Click to view our media packages below &nbsp;&nbsp;<i className="fas fa-long-arrow-alt-right"></i>
             </p>
-            {/* <p>What makes us different? Equipment, feature film, storytelling.</p> */}
           </h5>
           <p className="content__text">
             Looking to add photography services?
@@ -64,7 +76,7 @@ class Services extends React.Component {
         </div>
 
         <div className="package__text">
-          <div className={this.state.act1 ? "luxe_01 active" : "luxe_01 order-1" }>
+          <div className={this.state.act1 ? "luxe_01 active" : "luxe_01" }>
             <h2>LUXE I</h2>
             <ul>
               <li><p><span>PARTIAL COVERAGE</span><br/>6 hours</p></li>
@@ -154,6 +166,12 @@ class Services extends React.Component {
         </div>
 
         <Cards/>
+
+        <div className="content__text--mobile">
+          <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
+            also available upon request.</p>
+          <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
+        </div>
 
       </div>
       <Footer/>

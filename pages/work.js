@@ -49,11 +49,11 @@ const Work = () => (
           for generations to come.</p>
       </div>
       <div className="gallery--subtext text-2 order-6">
-        <h5 className="cta">
+        <h4 className="cta">
           <a href="/services" target="_self" className="icon-block">
             Check out our services &nbsp;&nbsp;<i className="fas fa-long-arrow-alt-right"></i>
           </a>
-        </h5>
+        </h4>
         <p>Given our love of cinema and experience in film production, you can expect to get the star treatment from beginning to end
           with a silver-screen quality production.</p>
       </div>

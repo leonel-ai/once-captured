@@ -326,6 +326,7 @@ img {
     .gallery__text {
       max-width: 320px;
       margin-bottom: 3em;
+      color: $color-content-text;
     }
     .gallery--wrapper {
       margin-bottom: 1em;
@@ -357,6 +358,8 @@ img {
       }
     }
     .gallery--subtext {
+      color: $color-content-text;
+
       &.text-1 {
         margin: 2em 0;
       }
@@ -435,14 +438,16 @@ img {
       }
     }
     .services__preface {
-
-      .cta {
-        display: none;
-      }
-      .content__text {
-        max-width: 320px;
-        margin-bottom: 3em;
-      }
+      display: none;
+    }
+    .content__text--mobile {
+      margin-top: 2em;
+      color: $color-content-text;
+    }
+    .content__text--desktop {
+      max-width: 320px;
+      margin: 1em 0 3em;
+      color: $color-content-text;
     }
     .package__text {
       display: none;
@@ -505,7 +510,6 @@ img {
     .package {
       display: none;
     }
-
     #cards  {
       margin-bottom: 2em;
       .slick-slider {
@@ -1176,10 +1180,10 @@ footer {
     overflow: hidden;
     .content--grid {
       display: grid;
-      padding: 0 3rem 16rem;
+      padding: 0 3rem 12rem;
       grid-template-columns: auto 300px 6%;
       grid-column-gap: 1rem;
-      grid-template-rows: 10% auto;
+      grid-template-rows: 20% auto;
       grid-template-areas: 'back ... ...' 'title reel ...' 'text reel ...' 'luxe reel ...' 'social reel ...';
       .services__block {
         .content__title {
@@ -1190,9 +1194,9 @@ footer {
         }
       }
       .services__preface {
-
+        grid-row: 4;
+        align-self: end;
         .cta {
-          display: block;
           margin-bottom: 1em;
           font-size: 1.1em;
           p {
@@ -1204,15 +1208,24 @@ footer {
           margin: 0;
         }
       }
-      .package__text {
+      .content__text--mobile {
+        display: none;
+      }
+      .content__text--desktop {
         display: block;
+        color: $color-content-text;
+        margin-top: 2em;
+        position: absolute;
+        max-width: 300px;
+      }
+      .package__text {
         hyphens: auto;
         position: absolute;
-        top: 12%;
+        top: 4%;
         max-width: 280px;
         margin: 0;
         grid-column: 1;
-        grid-row: 3;
+        grid-row: 5;
         color: $color-content-text;
 
         .luxe_01, .luxe_02, .luxe_03, .luxe_04 {
@@ -1268,7 +1281,6 @@ footer {
         }
       }
       .pk__img {
-        display: block;
         transition: all .2s ease-in-out;
 
         &:hover {
@@ -1299,8 +1311,10 @@ footer {
           }
         }
       }
-      .package { display: block; }
-      #cards { display: none; }
+      #cards {
+        grid-row: 2 / 4;
+        grid-column: 2;
+      }
     }
   }
   #contact {}
@@ -1593,7 +1607,7 @@ footer {
   }
 
   #services .content--grid {
-      padding: 0 3rem 16rem;
+      padding: 0 3rem 28rem;
       grid-template-columns: 50% 400px auto;
       grid-column-gap: 1rem;
       grid-template-rows: 16% auto;
@@ -1605,8 +1619,10 @@ footer {
       }
       .services__preface {
         align-self: start;
-
+        grid-row: 4;
+        margin-top: 2em;
         .cta {
+          display: block;
           margin-bottom: 1em;
           p { color: $color-accent; }
         }
@@ -1615,14 +1631,25 @@ footer {
           margin: 0;
         }
       }
+      .content__text--mobile {
+        display: none;
+      }
+      .content__text--desktop {
+        display: block;
+        color: $color-content-text;
+        margin-top: 2em;
+        position: absolute;
+        max-width: 400px;
+      }
       .package__text {
+        display: block;
         hyphens: auto;
         position: absolute;
-        top: 12%;
+        top: 14%;
         max-width: 380px;
         margin: 0;
         grid-column: 1;
-        grid-row: 3;
+        grid-row: 4;
         color: $color-content-text;
 
         .luxe_01, .luxe_02, .luxe_03, .luxe_04 {
@@ -1677,6 +1704,8 @@ footer {
         }
       }
       .pk__img {
+        display: block;
+
         transition: all .2s ease-in-out;
 
         &:hover {
@@ -1689,7 +1718,8 @@ footer {
         }
       }
       .content__back--link {}
-      .package {}
+      .package { display: block; }
+      #cards { display: none; }
   }
 
   #contact {
@@ -1798,7 +1828,7 @@ footer {
 
   }
   #services .content--grid {
-    padding: 0 3rem 10em;
+    padding: 0 3rem 24em;
     grid-template-columns: auto 400px 5%;
     grid-column-gap: 1rem;
     grid-template-rows: 8% auto;
@@ -1809,7 +1839,7 @@ footer {
       }
     }
     .services__preface {
-
+      margin-top: 1em;
       .cta {
         margin-bottom: 1em;
         font-size: 1.25em;
@@ -1822,6 +1852,9 @@ footer {
         margin: 0;
       }
     }
+    .content__text--desktop {
+      max-width: 440px;
+    }
     .package__text {
       hyphens: auto;
       position: absolute;
@@ -1829,7 +1862,7 @@ footer {
       max-width: 380px;
       margin: 0;
       grid-column: 1;
-      grid-row: 3;
+      grid-row: 4 / 9;
       color: $color-content-text;
 
       .luxe_01, .luxe_02, .luxe_03, .luxe_04 {
@@ -1841,7 +1874,6 @@ footer {
         &.active {
           visibility: visible;
           opacity: 1;
-          height: auto;
           transition: visibility 0s .2s, opacity .6s linear;
         }
 
@@ -2104,7 +2136,9 @@ footer {
       }
     }
     .services__preface {
-
+      grid-row: 3;
+      align-self: center;
+      margin-top: 14em;
       .cta {
         margin-bottom: 1em;
         p { color: $color-accent; }
@@ -2114,14 +2148,17 @@ footer {
         margin: 0;
       }
     }
+    .content__text--desktop {
+      max-width: 460px;
+    }
     .package__text {
       hyphens: auto;
       position: absolute;
-      top: 12%;
+      top: 0;
       max-width: 380px;
       margin: 0;
       grid-column: 1;
-      grid-row: 3;
+      grid-row: 4 / 5;
       color: $color-content-text;
 
       .luxe_01, .luxe_02, .luxe_03, .luxe_04 {
@@ -2409,7 +2446,7 @@ footer {
     }
   }
   #services .content--grid {
-    grid-template-columns: auto 600px 5%;
+    grid-template-columns: auto 560px 5%;
     .services__block {
       .content__title {
         font-size: 6.5em;
@@ -2429,11 +2466,9 @@ footer {
     .package__text {
       hyphens: auto;
       position: absolute;
-      top: 12%;
       max-width: 380px;
       margin: 0;
       grid-column: 1;
-      grid-row: 3;
       color: $color-content-text;
 
       .luxe_01, .luxe_02, .luxe_03, .luxe_04 {
