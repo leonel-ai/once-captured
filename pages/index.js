@@ -16,7 +16,7 @@ class Home extends React.Component {
               <img className="img-fluid" src="/static/logo.svg" alt="brand logo"/>
             </div>
             <div className="cta">
-              <a href="/contact" className="icon-block" target="_self">
+              <a href="/services" className="icon-block" target="_self">
                 Work with us &nbsp;&nbsp;<i className="fas fa-long-arrow-alt-right"></i>
               </a>
             </div>
@@ -28,14 +28,14 @@ class Home extends React.Component {
             <div className="work-block">
             <a href="/work" className="subpage-link" target="_self">
               <h2 className="work-title">WORK</h2>
-                <p className="work-content">Creating amazing work that does blah blah blah.</p>
+                <p className="work-content">The adventure starts here.</p>
                 <i className="fas fa-long-arrow-alt-right"></i>
               </a>
             </div>
             <div className="services-block">
               <a href="/services" className="subpage-link" target="_self">
               <h2 className="services-title">SERVICES</h2>
-                <p className="services-content">Creating amazing work that does blah blah blah.</p>
+                <p className="services-content">Book your next big event.</p>
                 <i className="fas fa-long-arrow-alt-right"></i>
               </a>
             </div>

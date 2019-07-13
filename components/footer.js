@@ -8,7 +8,7 @@ const Footer = props => (
         <img src="/static/logo.svg" alt="footer logo"/>
       </div>
       <div className="col-12 col-md-4 contact-ft">
-        <a className="contact-btn" href="mailto:oncecinemaco@gmail.com">Contact Us</a>
+        <a className="contact-btn" href="mailto:oncecinemaco@gmail.com?subject=Hello,&nbsp;ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self">Contact Us</a>
       </div>
       <div className="col-12 col-md-2 social-ft">
         <ul>

@@ -89,7 +89,7 @@ class Services extends React.Component {
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
-            <p className="contact-cta"><a href="/contact" target="_self" className="contact-btn">Book a date</a></p>
+            <p className="contact-cta"><a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;I Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">Book a date</a></p>
           </div>
           <div className={this.state.act2 ? "luxe_02 active" : "luxe_02" }>
             <h2>Luxe II</h2>
@@ -104,7 +104,7 @@ class Services extends React.Component {
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
-            <p className="contact-cta"><a href="/contact" target="_self" className="contact-btn">Book a date</a></p>
+            <p className="contact-cta"><a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;II Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">Book a date</a></p>
           </div>
           <div className={this.state.act3 ? "luxe_03 active" : "luxe_03" }>
             <h2>Luxe III</h2>
@@ -119,7 +119,7 @@ class Services extends React.Component {
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
-            <p className="contact-cta"><a href="/contact" target="_self" className="contact-btn">Book a date</a></p>
+            <p className="contact-cta"><a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;III Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">Book a date</a></p>
           </div>
           <div className={this.state.act4 ? "luxe_04 active" : "luxe_04" }>
             <h2>Luxe IV</h2>
@@ -134,7 +134,7 @@ class Services extends React.Component {
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
-            <p className="contact-cta"><a href="/contact" target="_self" className="contact-btn">Book a date</a></p>
+            <p className="contact-cta"><a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;IV Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">Book a date</a></p>
           </div>
         </div>
 

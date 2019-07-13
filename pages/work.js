@@ -60,7 +60,7 @@ const Work = () => (
       <div className="gallery--subtext text-3 order-8">
         <h3 className="gallery__title display-4">SAY<br/>I DO</h3>
         <p>Reservations fill up fast.<br/>Contact us for availability today.</p>
-        <p className="contact-cta"><a href="/contact" target="_self" className="contact-btn">Book a date</a></p>
+        <p className="contact-cta"><a href="/services" target="_self" className="contact-btn">Book a date</a></p>
       </div>
 
       <a className="content__back--link" href="/" target="_self"><button className="content__back" aria-label="back to main view"></button></a>

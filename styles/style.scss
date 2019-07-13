@@ -1618,11 +1618,11 @@ footer {
         }
       }
       .services__preface {
+        display: block;
         align-self: start;
         grid-row: 4;
         margin-top: 2em;
         .cta {
-          display: block;
           margin-bottom: 1em;
           p { color: $color-accent; }
         }
