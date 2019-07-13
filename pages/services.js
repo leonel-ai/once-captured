@@ -45,6 +45,25 @@ class Services extends React.Component {
       <div className="subpage" id="services">
       <Head title="ONCE | Services" />
 
+      <div className="mobile__head">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand" href="/"><span>ONCE </span>Captured</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="/services">Services <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="/work">Work</a>
+              <a class="nav-item nav-link"
+                href="mailto:oncecinemaco@gmail.com?subject=Hello,&nbsp;ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date).">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
       <div className="content content--grid content--second">
         <div className="services__block">
           <h3 className="content__title display-4">Lifelong<br/>Memories</h3>
@@ -89,7 +108,9 @@ class Services extends React.Component {
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
-            <p className="contact-cta"><a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;I Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">Book a date</a></p>
+            <p className="contact-cta">
+              <a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;I Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">
+                Book a date</a></p>
           </div>
           <div className={this.state.act2 ? "luxe_02 active" : "luxe_02" }>
             <h2>Luxe II</h2>

@@ -8,6 +8,25 @@ const Work = () => (
   <div className="subpage" id="work">
     <Head title="ONCE | Work" />
 
+    <div className="mobile__head">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand" href="/"><span>ONCE </span>Captured</a>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="/services">Services</a>
+              <a class="nav-item nav-link active" href="/work">Work <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link"
+                href="mailto:oncecinemaco@gmail.com?subject=Hello,&nbsp;ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date).">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
     <div className="content content--grid content--second">
       <div className="gallery__block">
         <h3 className="gallery__title display-4">REAL<br/>ADVENTURE</h3>
