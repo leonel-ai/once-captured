@@ -293,7 +293,7 @@ function (_React$Component) {
           lineNumber: 64
         },
         __self: this
-      }), "30 Sec. to 1 Min")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }), "30 sec - 1 min")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 65
@@ -317,7 +317,7 @@ function (_React$Component) {
           lineNumber: 65
         },
         __self: this
-      }), "Within 6 - 8 Weeks")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }), "6 - 8 Weeks")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 66
@@ -501,7 +501,7 @@ function (_React$Component) {
           lineNumber: 79
         },
         __self: this
-      }), "30 Sec. to 1 Min")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }), "30 sec - 1 min")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 80
@@ -525,7 +525,7 @@ function (_React$Component) {
           lineNumber: 80
         },
         __self: this
-      }), "Within 6 - 8 Weeks")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }), "6 - 8 Weeks")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 81
@@ -709,7 +709,7 @@ function (_React$Component) {
           lineNumber: 94
         },
         __self: this
-      }), "30 Sec. to 1 Min")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }), "30 sec - 1 min")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 95
@@ -733,7 +733,7 @@ function (_React$Component) {
           lineNumber: 95
         },
         __self: this
-      }), "Within 6 - 8 Weeks")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }), "6 - 8 Weeks")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 96
@@ -917,7 +917,7 @@ function (_React$Component) {
           lineNumber: 109
         },
         __self: this
-      }), "30 Sec. to 1 Min")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }), "30 sec - 1 min")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 110
@@ -941,7 +941,7 @@ function (_React$Component) {
           lineNumber: 110
         },
         __self: this
-      }), "Within 6 - 8 Weeks")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+      }), "6 - 8 Weeks")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 111

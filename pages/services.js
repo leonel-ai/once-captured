@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from '../components/head'
 import Footer from '../components/footer'
+import Cards from '../components/cards'
 import '../styles/style.scss'
 
 
@@ -54,6 +55,7 @@ class Services extends React.Component {
             <p className="icon-block">
               Click to view our media packages &nbsp;&nbsp;<i className="fas fa-long-arrow-alt-right"></i>
             </p>
+            {/* <p>What makes us different? Equipment, feature film, storytelling.</p> */}
           </h5>
           <p className="content__text">
             Looking to add photography services?
@@ -62,14 +64,14 @@ class Services extends React.Component {
         </div>
 
         <div className="package__text">
-          <div className={this.state.act1 ? "luxe_01 active" : "luxe_01" }>
+          <div className={this.state.act1 ? "luxe_01 active" : "luxe_01 order-1" }>
             <h2>LUXE I</h2>
             <ul>
               <li><p><span>PARTIAL COVERAGE</span><br/>6 hours</p></li>
               <li><p><span>1 CINEMATOGRAPHER</span><br/>5 Years of Experience</p></li>
               <li><p><span>2 - 3 MINUTE FILM</span><br/>Online + Downloadable</p></li>
-              <li><p><span>HIGHLIGHT FILM</span><br/>30 Sec. to 1 Min</p></li>
-              <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
+              <li><p><span>HIGHLIGHT FILM</span><br/>30 sec - 1 min</p></li>
+              <li><p><span>DELIVERED</span><br/>6 - 8 Weeks</p></li>
               <li><p><span>PRICE</span><br/>$1000 - $1200</p></li>
             </ul>
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
@@ -83,8 +85,8 @@ class Services extends React.Component {
               <li><p><span>HALF-DAY COVERAGE</span><br/>8 hours</p></li>
               <li><p><span>1 CINEMATOGRAPHER</span><br/>5 Years of Experience</p></li>
               <li><p><span>4 - 6 MINUTE FILM</span><br/>Online + Downloadable</p></li>
-              <li><p><span>HIGHLIGHT FILM</span><br/>30 Sec. to 1 Min</p></li>
-              <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
+              <li><p><span>HIGHLIGHT FILM</span><br/>30 sec - 1 min</p></li>
+              <li><p><span>DELIVERED</span><br/>6 - 8 Weeks</p></li>
               <li><p><span>PRICE</span><br/>$1800 - $2000</p></li>
             </ul>
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
@@ -98,8 +100,8 @@ class Services extends React.Component {
               <li><p><span>ALL DAY COVERAGE</span><br/>10 hours</p></li>
               <li><p><span>2 CINEMATOGRAPHERS</span><br/>5+ Years of Experience</p></li>
               <li><p><span>6 - 8 MINUTE FILM</span><br/>Online + Downloadable</p></li>
-              <li><p><span>HIGHLIGHT FILM</span><br/>30 Sec. to 1 Min</p></li>
-              <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
+              <li><p><span>HIGHLIGHT FILM</span><br/>30 sec - 1 min</p></li>
+              <li><p><span>DELIVERED</span><br/>6 - 8 Weeks</p></li>
               <li><p><span>PRICE</span><br/>$3200 - $3400</p></li>
             </ul>
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
@@ -113,8 +115,8 @@ class Services extends React.Component {
               <li><p><span>FULL COVERAGE</span><br/>12 hours</p></li>
               <li><p><span>2 CINEMATOGRAPHERS</span><br/>5+ Years of Experience</p></li>
               <li><p><span>10 - 15 MINUTE FILM</span><br/>Online + Downloadable</p></li>
-              <li><p><span>HIGHLIGHT FILM</span><br/>30 Sec. to 1 Min</p></li>
-              <li><p><span>DELIVERED</span><br/>Within 6 - 8 Weeks</p></li>
+              <li><p><span>HIGHLIGHT FILM</span><br/>30 sec - 1 min</p></li>
+              <li><p><span>DELIVERED</span><br/>6 - 8 Weeks</p></li>
               <li><p><span>PRICE</span><br/>$4000 - $4200</p></li>
             </ul>
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
@@ -150,6 +152,8 @@ class Services extends React.Component {
         <div className="package package__block4">
           <h2>04</h2>
         </div>
+
+        <Cards/>
 
       </div>
       <Footer/>
