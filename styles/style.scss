@@ -35,6 +35,9 @@ a {
     text-decoration: none;
     outline: none;
   }
+  &:hover {
+    text-decoration: none;
+  }
 }
 p, button, .btn, .cta {
   font-family: $calluna;
