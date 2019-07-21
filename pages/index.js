@@ -8,7 +8,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <Head title="ONCE Cinema" />
+        <Head title="ONCE Captured" />
 
         <div className="jumbotron jumbotron-fluid">
           <div className="grid-container">

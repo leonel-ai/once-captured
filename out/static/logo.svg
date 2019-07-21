@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225.07 83.28"><defs><style>.cls-1{font-size:24px;font-family:BioSans-Light, Bio Sans;font-weight:300;letter-spacing:0.09em;}.cls-2{letter-spacing:0.1em;}.cls-3{letter-spacing:0.09em;}.cls-4{font-size:60px;font-family:ArnoPro-Bold, Arno Pro;font-weight:700;letter-spacing:0.1em;}.cls-5{letter-spacing:0.1em;}.cls-6{letter-spacing:0.1em;}.cls-7{letter-spacing:0.1em;}</style></defs><title>Asset 1</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><text class="cls-1" transform="translate(5.15 78.4) scale(1.5 0.9)">CINEMA <tspan class="cls-2" x="108.14" y="0">C</tspan><tspan class="cls-3" x="125.33" y="0">O</tspan></text><text class="cls-4" transform="translate(0 52.87) scale(1.2 1.1)">O<tspan class="cls-5" x="51.42" y="0">N</tspan><tspan class="cls-6" x="100.5" y="0">C</tspan><tspan class="cls-7" x="146.4" y="0">E</tspan></text></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 225.1 83.3" style="enable-background:new 0 0 225.1 83.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Calluna-Bold';}
+	.st1{font-size:51.4193px;}
+	.st2{letter-spacing:5;}
+	.st3{font-family:'BrandonGrotesque-Bold';}
+	.st4{font-size:30.8516px;}
+	.st5{letter-spacing:3;}
+	.st6{fill:none;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<title>Asset 1</title>
+<text transform="matrix(1.2 0 0 1.1 14.9909 43.7376)" class="st0 st1 st2">ONCE</text>
+<text transform="matrix(1 0 0 0.9 23.737 80.0238)" class="st3 st4 st5">CAPTURED</text>
+<line class="st6" x1="17.1" y1="52.6" x2="208" y2="52.6"/>
+</svg>

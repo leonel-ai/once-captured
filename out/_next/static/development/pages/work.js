@@ -58,7 +58,7 @@ var Footer = function Footer(props) {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "contact-btn",
-    href: "mailto:oncecinemaco@gmail.com?subject=Hello,\xA0ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date).",
+    href: "mailto:hi.oncecaptured@gmail.com?subject=Hello,\xA0ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date).",
     target: "_self",
     __source: {
       fileName: _jsxFileName,
@@ -85,7 +85,7 @@ var Footer = function Footer(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "http://facebook.com/oncecinema.co",
+    href: "http://facebook.com/oncecaptured.co",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -117,7 +117,7 @@ var Footer = function Footer(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "http://instagram.com/once.cinema/",
+    href: "http://instagram.com/_oncecaptured/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
@@ -173,7 +173,7 @@ var Footer = function Footer(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "http://vimeo.com/oncecinema",
+    href: "http://vimeo.com/oncecaptured",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
@@ -258,9 +258,9 @@ var _jsxFileName = "/Users/leonelaguzman/Documents/Clients/once/oncecinema/compo
 
 
 
-var defaultDescription = '';
-var defaultOGURL = '';
-var defaultOGImage = '';
+var defaultDescription = 'Wedding and event cinematography with a story to tell.';
+var defaultOGURL = 'https://www.oncecaptured.co/';
+var defaultOGImage = '/static/mansion.jpg';
 
 var Head = function Head(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -299,29 +299,12 @@ var Head = function Head(props) {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-    rel: "icon",
-    sizes: "192x192",
-    href: "/static/touch-icon.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-    rel: "apple-touch-icon",
-    href: "/static/touch-icon.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "mask-icon",
     href: "/static/favicon-mask.svg",
     color: "#49B882",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 18
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -329,7 +312,44 @@ var Head = function Head(props) {
     href: "/static/favicon.ico",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "apple-touch-icon",
+    sizes: "180x180",
+    href: "/static/apple-touch-icon.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "icon",
+    type: "image/png",
+    sizes: "32x32",
+    href: "/static/favicon-32x32.png",
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 21
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "icon",
+    type: "image/png",
+    sizes: "16x16",
+    href: "/static/favicon-16x16.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "manifest",
+    href: "/static/site.webmanifest",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -339,7 +359,7 @@ var Head = function Head(props) {
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 25
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -347,7 +367,7 @@ var Head = function Head(props) {
     href: "https://use.typekit.net/ndt8apa.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 26
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -355,7 +375,7 @@ var Head = function Head(props) {
     href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 27
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -365,7 +385,7 @@ var Head = function Head(props) {
     href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 28
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -374,7 +394,7 @@ var Head = function Head(props) {
     href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 29
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -382,7 +402,7 @@ var Head = function Head(props) {
     content: props.url || defaultOGURL,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 31
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -390,7 +410,7 @@ var Head = function Head(props) {
     content: props.title || '',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 32
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -398,7 +418,7 @@ var Head = function Head(props) {
     content: props.description || defaultDescription,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 33
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -406,7 +426,7 @@ var Head = function Head(props) {
     content: props.url || defaultOGURL,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 37
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -414,7 +434,7 @@ var Head = function Head(props) {
     content: "summary_large_image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 38
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -422,7 +442,7 @@ var Head = function Head(props) {
     content: props.ogImage || defaultOGImage,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 39
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -430,7 +450,7 @@ var Head = function Head(props) {
     content: props.ogImage || defaultOGImage,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 40
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -438,7 +458,7 @@ var Head = function Head(props) {
     content: "1200",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 41
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -446,14 +466,14 @@ var Head = function Head(props) {
     content: "630",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 42
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("base", {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 44
     },
     __self: this
   }));
@@ -4846,6 +4866,7 @@ var Work = function Work() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     class: "navbar-brand",
     href: "/",
+    target: "_self",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -4909,6 +4930,7 @@ var Work = function Work() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     class: "nav-item nav-link",
     href: "/services",
+    target: "_self",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
@@ -4917,6 +4939,7 @@ var Work = function Work() {
   }, "Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     class: "nav-item nav-link active",
     href: "/work",
+    target: "_self",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
@@ -4931,7 +4954,7 @@ var Work = function Work() {
     __self: this
   }, "(current)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     class: "nav-item nav-link",
-    href: "mailto:oncecinemaco@gmail.com?subject=Hello,\xA0ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date).",
+    href: "mailto:hi.oncecaptured@gmail.com?subject=Hello,\xA0ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date).",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
@@ -5220,7 +5243,7 @@ var Work = function Work() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!*********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fwork&absolutePagePath=%2FUsers%2Fleonelaguzman%2FDocuments%2FClients%2Fonce%2Foncecinema%2Fpages%2Fwork.js ***!
   \*********************************************************************************************************************************************************/
@@ -5243,5 +5266,5 @@ module.exports = dll_43fdc562a96c55866f3e;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[3,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=work.js.map

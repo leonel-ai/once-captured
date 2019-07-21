@@ -18,6 +18,8 @@ a {
   a:visited, a:active {
     text-decoration: none;
     outline: none; }
+  a:hover {
+    text-decoration: none; }
 
 p, button, .btn, .cta {
   font-family: "calluna", serif; }
@@ -45,12 +47,7 @@ img {
     grid-template-columns: 60% 40%;
     grid-template-rows: .25fr 280px 1fr 1fr; }
     .jumbotron .grid-container .brand {
-      font-size: 2em;
-      align-self: center;
-      padding: .5em 0 0 .5em; }
-      .jumbotron .grid-container .brand img {
-        max-width: 72px;
-        height: auto; }
+      display: none; }
     .jumbotron .grid-container .cta {
       grid-column: 2;
       align-self: center;
@@ -652,18 +649,11 @@ footer {
   .jumbotron .grid-container {
     grid-template-columns: 50% 50%;
     grid-template-rows: .25fr 360px 1fr .5fr; }
-    .jumbotron .grid-container .brand {
-      font-size: 2em;
-      align-self: center;
-      padding-left: 1.5em; }
-      .jumbotron .grid-container .brand img {
-        max-width: 100px;
-        height: auto; }
     .jumbotron .grid-container .cta {
       grid-column: 2;
       align-self: center;
       justify-self: flex-end;
-      padding: 0 2em;
+      padding: 1em 2em;
       border: none;
       font-size: calc(0.3vw + 12.17px);
       transform: translateX(0);

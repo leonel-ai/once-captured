@@ -30,12 +30,12 @@ class Cards extends React.Component {
                       <ul>
                         <li><p><span>HIGHLIGHT FILM</span><br/>30 sec - 1 min</p></li>
                         <li><p><span>DELIVERED</span><br/>6 - 8 wks</p></li>
-                        <li><p><span>PRICE</span><br/>$1000 - $1200</p></li>
+                        <li><p><span>PRICE</span><br/>$1200</p></li>
                       </ul>
                     </div>
                   </div>
 
-                <a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;I Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." className="btn btn-danger" target="_self">Book a date</a>
+                <a href="mailto:hi.oncecaptured@gmail.com?subject=Luxe&nbsp;I Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." className="btn btn-danger" target="_self">Book a date</a>
               </div>
             </div>
           </div>
@@ -57,12 +57,12 @@ class Cards extends React.Component {
                       <ul>
                         <li><p><span>HIGHLIGHT FILM</span><br/>30 sec - 1 min</p></li>
                         <li><p><span>DELIVERED</span><br/>6 - 8 wks</p></li>
-                        <li><p><span>PRICE</span><br/>$1800 - $2000</p></li>
+                        <li><p><span>PRICE</span><br/>$2000</p></li>
                       </ul>
                     </div>
                   </div>
 
-                <a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;II Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." className="btn btn-danger" target="_self">Book a date</a>
+                <a href="mailto:hi.oncecaptured@gmail.com?subject=Luxe&nbsp;II Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." className="btn btn-danger" target="_self">Book a date</a>
               </div>
             </div>
           </div>
@@ -84,12 +84,12 @@ class Cards extends React.Component {
                       <ul>
                         <li><p><span>HIGHLIGHT FILM</span><br/>30 sec - 1 min</p></li>
                         <li><p><span>DELIVERED</span><br/>6 - 8 wks</p></li>
-                        <li><p><span>PRICE</span><br/>$3200 - $3400</p></li>
+                        <li><p><span>PRICE</span><br/>$3200</p></li>
                       </ul>
                     </div>
                   </div>
 
-                <a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;III Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." className="btn btn-danger" target="_self">Book a date</a>
+                <a href="mailto:hi.oncecaptured@gmail.com?subject=Luxe&nbsp;III Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." className="btn btn-danger" target="_self">Book a date</a>
               </div>
             </div>
           </div>
@@ -111,12 +111,12 @@ class Cards extends React.Component {
                       <ul>
                         <li><p><span>HIGHLIGHT FILM</span><br/>30 sec - 1 min</p></li>
                         <li><p><span>DELIVERED</span><br/>6 - 8 wks</p></li>
-                        <li><p><span>PRICE</span><br/>$4000 - $4200</p></li>
+                        <li><p><span>PRICE</span><br/>$4600</p></li>
                       </ul>
                     </div>
                   </div>
 
-                <a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;IV Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." className="btn btn-danger" target="_self">Book a date</a>
+                <a href="mailto:hi.oncecaptured@gmail.com?subject=Luxe&nbsp;IV Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." className="btn btn-danger" target="_self">Book a date</a>
               </div>
             </div>
           </div>

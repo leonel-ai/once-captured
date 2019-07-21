@@ -12,7 +12,7 @@
 
     http_response_code(200);
     $subject = $_POST['name'] . ': New Inquiry';
-    $to = "oncecinemaco@gmail.com";
+    $to = "hi.oncecaptured@gmail.com";
     $from = $_POST['email'];
 
     // data

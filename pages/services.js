@@ -58,7 +58,7 @@ class Services extends React.Component {
               <a className="nav-item nav-link active" href="/services" target="_self">Services <span className="sr-only">(current)</span></a>
               <a className="nav-item nav-link" href="/work" target="_self">Work</a>
               <a className="nav-item nav-link"
-                href="mailto:oncecinemaco@gmail.com?subject=Hello,&nbsp;ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date).">Contact</a>
+                href="mailto:hi.oncecaptured@gmail.com?subject=Hello,&nbsp;ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date).">Contact</a>
             </div>
           </div>
         </nav>
@@ -103,13 +103,13 @@ class Services extends React.Component {
               <li><p><span>2 - 3 MINUTE FILM</span><br/>Online + Downloadable</p></li>
               <li><p><span>HIGHLIGHT FILM</span><br/>30 sec - 1 min</p></li>
               <li><p><span>DELIVERED</span><br/>6 - 8 Weeks</p></li>
-              <li><p><span>PRICE</span><br/>$1000 - $1200</p></li>
+              <li><p><span>PRICE</span><br/>$1200</p></li>
             </ul>
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
             <p className="contact-cta">
-              <a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;I Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">
+              <a href="mailto:hi.oncecaptured@gmail.com?subject=Luxe&nbsp;I Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">
                 Book a date</a></p>
           </div>
           <div className={this.state.act2 ? "luxe_02 active" : "luxe_02" }>
@@ -120,12 +120,12 @@ class Services extends React.Component {
               <li><p><span>4 - 6 MINUTE FILM</span><br/>Online + Downloadable</p></li>
               <li><p><span>HIGHLIGHT FILM</span><br/>30 sec - 1 min</p></li>
               <li><p><span>DELIVERED</span><br/>6 - 8 Weeks</p></li>
-              <li><p><span>PRICE</span><br/>$1800 - $2000</p></li>
+              <li><p><span>PRICE</span><br/>$2000</p></li>
             </ul>
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
-            <p className="contact-cta"><a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;II Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">Book a date</a></p>
+            <p className="contact-cta"><a href="mailto:hi.oncecaptured@gmail.com?subject=Luxe&nbsp;II Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">Book a date</a></p>
           </div>
           <div className={this.state.act3 ? "luxe_03 active" : "luxe_03" }>
             <h2>Luxe III</h2>
@@ -135,12 +135,12 @@ class Services extends React.Component {
               <li><p><span>6 - 8 MINUTE FILM</span><br/>Online + Downloadable</p></li>
               <li><p><span>HIGHLIGHT FILM</span><br/>30 sec - 1 min</p></li>
               <li><p><span>DELIVERED</span><br/>6 - 8 Weeks</p></li>
-              <li><p><span>PRICE</span><br/>$3200 - $3400</p></li>
+              <li><p><span>PRICE</span><br/>$3200</p></li>
             </ul>
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
-            <p className="contact-cta"><a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;III Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">Book a date</a></p>
+            <p className="contact-cta"><a href="mailto:hi.oncecaptured@gmail.com?subject=Luxe&nbsp;III Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">Book a date</a></p>
           </div>
           <div className={this.state.act4 ? "luxe_04 active" : "luxe_04" }>
             <h2>Luxe IV</h2>
@@ -150,12 +150,12 @@ class Services extends React.Component {
               <li><p><span>10 - 15 MINUTE FILM</span><br/>Online + Downloadable</p></li>
               <li><p><span>HIGHLIGHT FILM</span><br/>30 sec - 1 min</p></li>
               <li><p><span>DELIVERED</span><br/>6 - 8 Weeks</p></li>
-              <li><p><span>PRICE</span><br/>$4000 - $4200</p></li>
+              <li><p><span>PRICE</span><br/>$4600</p></li>
             </ul>
             <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
               also available upon request.</p>
             <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
-            <p className="contact-cta"><a href="mailto:oncecinemaco@gmail.com?subject=Luxe&nbsp;IV Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">Book a date</a></p>
+            <p className="contact-cta"><a href="mailto:hi.oncecaptured@gmail.com?subject=Luxe&nbsp;IV Booking&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self" className="contact-btn">Book a date</a></p>
           </div>
         </div>
 

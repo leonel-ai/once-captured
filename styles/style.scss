@@ -71,13 +71,7 @@ img {
     grid-template-rows: .25fr 280px 1fr 1fr;
 
     .brand {
-      font-size: 2em;
-      align-self: center;
-      padding: .5em 0 0 .5em;
-      img {
-        max-width: 72px;
-        height: auto;
-      }
+      display: none;
     }
     .cta {
       grid-column: 2;
@@ -887,20 +881,11 @@ footer {
     .grid-container {
       grid-template-columns: 50% 50%;
       grid-template-rows: .25fr 360px 1fr .5fr;
-      .brand {
-        font-size: 2em;
-        align-self: center;
-        padding-left: 1.5em;
-        img {
-          max-width: 100px;
-          height: auto;
-        }
-      }
       .cta {
         grid-column: 2;
         align-self: center;
         justify-self: flex-end;
-        padding: 0 2em;
+        padding: 1em 2em;
         border: none;
         font-size: calc(0.3vw + 12.17px);
         transform: translateX(0);

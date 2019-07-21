@@ -21,7 +21,7 @@ const Work = () => (
               <a class="nav-item nav-link" href="/services" target="_self">Services</a>
               <a class="nav-item nav-link active" href="/work" target="_self">Work <span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link"
-                href="mailto:oncecinemaco@gmail.com?subject=Hello,&nbsp;ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date).">Contact</a>
+                href="mailto:hi.oncecaptured@gmail.com?subject=Hello,&nbsp;ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date).">Contact</a>
             </div>
           </div>
         </nav>

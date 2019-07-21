@@ -2,9 +2,9 @@ import React from 'react'
 import NextHead from 'next/head'
 import { string } from 'prop-types'
 
-const defaultDescription = ''
-const defaultOGURL = ''
-const defaultOGImage = ''
+const defaultDescription = 'Wedding and event cinematography with a story to tell.'
+const defaultOGURL = 'https://www.oncecaptured.co/'
+const defaultOGImage = '/static/mansion.jpg'
 
 const Head = props => (
   <NextHead>
