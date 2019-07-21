@@ -15,10 +15,13 @@ const Head = props => (
       content={props.description || defaultDescription}
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" sizes="192x192" href="/static/touch-icon.png" />
-    <link rel="apple-touch-icon" href="/static/touch-icon.png" />
     <link rel="mask-icon" href="/static/favicon-mask.svg" color="#49B882" />
     <link rel="icon" href="/static/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
+    <link rel="manifest" href="/static/site.webmanifest" />
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous" />
     <link rel="stylesheet" href="https://use.typekit.net/ndt8apa.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />

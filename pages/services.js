@@ -46,18 +46,18 @@ class Services extends React.Component {
       <Head title="ONCE | Services" />
 
       <div className="mobile__head">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-          <a class="navbar-brand" href="/" target="_self"><span>ONCE </span>Captured</a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
+        <nav className="navbar navbar-expand-lg navbar-light bg-white">
+          <a className="navbar-brand" href="/" target="_self"><span>ONCE </span>Captured</a>
+            <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="icon-bar top-bar"></span>
+            <span className="icon-bar middle-bar"></span>
+            <span className="icon-bar bottom-bar"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="/services" target="_self">Services <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="/work" target="_self">Work</a>
-              <a class="nav-item nav-link"
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="navbar-nav">
+              <a className="nav-item nav-link active" href="/services" target="_self">Services <span className="sr-only">(current)</span></a>
+              <a className="nav-item nav-link" href="/work" target="_self">Work</a>
+              <a className="nav-item nav-link"
                 href="mailto:oncecinemaco@gmail.com?subject=Hello,&nbsp;ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date).">Contact</a>
             </div>
           </div>
