@@ -5,7 +5,7 @@ const Footer = props => (
     <hr/>
     <div className="row footer-block">
       <div className="col-12 col-md-6 logo-ft">
-        <img src="/static/logo.svg" alt="footer logo"/>
+        <img src="/static/logo-black.png" alt="footer logo"/>
       </div>
       <div className="col-12 col-md-4 contact-ft">
         <a className="contact-btn" href="mailto:hi.oncecaptured@gmail.com?subject=Hello,&nbsp;ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self">Contact Us</a>
@@ -13,7 +13,7 @@ const Footer = props => (
       <div className="col-12 col-md-2 social-ft">
         <ul>
           <li>
-            <a href="http://facebook.com/oncecaptured.co">
+            <a href="https://www.facebook.com/ONCE-Captured-372786923420383/">
               <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12.5 0C5.60553 0 0 5.60553 0 12.5C0 19.3945 5.60553 25 12.5 25C19.3945 25 25 19.3945 25 12.5C25 5.60553 19.3945 0 12.5 0ZM15.6082 12.9364H13.5741C13.5741 16.1856 13.5741 20.1866 13.5741 20.1866H10.5599C10.5599 20.1866 10.5599 16.2258 10.5599 12.9364H9.12997V10.3786H10.5599V8.72045C10.5599 7.53222 11.1238 5.67937 13.601 5.67937L15.8365 5.68609V8.17669C15.8365 8.17669 14.4804 8.17669 14.2186 8.17669C13.9568 8.17669 13.5808 8.31096 13.5808 8.87486V10.3786H15.8767L15.6082 12.9364Z" fill="#F2ECDC"/>
               </svg>
