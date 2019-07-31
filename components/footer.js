@@ -1,17 +1,23 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 
 const Footer = props => (
   <footer>
     <hr/>
     <div className="row footer-block">
+      <Fade bottom>
       <div className="col-12 col-md-6 logo-ft">
         <img src="/static/logo-black.png" alt="footer logo"/>
       </div>
+      </Fade>
+      <Fade bottom>
       <div className="col-12 col-md-4 contact-ft">
         <a className="contact-btn" href="mailto:hi.oncecaptured@gmail.com?subject=Hello,&nbsp;ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date)." target="_self">Contact Us</a>
       </div>
+      </Fade>
       <div className="col-12 col-md-2 social-ft">
         <ul>
+          <Fade left>
           <li>
             <a href="https://www.facebook.com/ONCE-Captured-372786923420383/">
               <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,6 +25,8 @@ const Footer = props => (
               </svg>
             </a>
           </li>
+          </Fade>
+          <Fade left delay="300">
           <li>
             <a href="http://instagram.com/_oncecaptured/">
               <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,6 +37,8 @@ const Footer = props => (
               </svg>
             </a>
           </li>
+          </Fade>
+          <Fade left delay="700">
           <li>
             <a href="http://vimeo.com/oncecaptured">
               <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,6 +46,7 @@ const Footer = props => (
               </svg>
             </a>
           </li>
+          </Fade>
         </ul>
       </div>
     </div>
@@ -44,6 +55,8 @@ const Footer = props => (
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossOrigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossOrigin="anonymous"></script>
     <script src="https://player.vimeo.com/api/player.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144893460-1"></script>
+
   </footer>
 )
 

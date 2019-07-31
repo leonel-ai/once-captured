@@ -1265,6 +1265,74 @@ footer {
       transition: all .2s ease-in-out; }
       #services .content--grid .pk__img:hover {
         transform: scale(0.9); }
+      #services .content--grid .pk__img.package__img1:hover::after {
+        content: 'LUXE I';
+        top: 50%;
+        position: absolute;
+        left: 50%;
+        color: white;
+        letter-spacing: .026em;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 3.5em 0;
+        text-align: center;
+        font-size: 2em;
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+        transition: all .5s linear;
+        font-weight: 700;
+        font-family: "brandon grotesque", sans-serif; }
+      #services .content--grid .pk__img.package__img2:hover::after {
+        content: 'LUXE II';
+        top: 50%;
+        position: absolute;
+        left: 50%;
+        color: white;
+        letter-spacing: .026em;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 3.5em 0;
+        text-align: center;
+        font-size: 2em;
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+        transition: all .5s linear;
+        font-weight: 700;
+        font-family: "brandon grotesque", sans-serif; }
+      #services .content--grid .pk__img.package__img3:hover::after {
+        content: 'LUXE III';
+        top: 50%;
+        position: absolute;
+        left: 50%;
+        color: white;
+        letter-spacing: .026em;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 3.5em 0;
+        text-align: center;
+        font-size: 2em;
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+        transition: all .5s linear;
+        font-weight: 700;
+        font-family: "brandon grotesque", sans-serif; }
+      #services .content--grid .pk__img.package__img4:hover::after {
+        content: 'LUXE IV';
+        top: 50%;
+        position: absolute;
+        left: 50%;
+        color: white;
+        letter-spacing: .026em;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 3.5em 0;
+        text-align: center;
+        font-size: 2em;
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+        transition: all .5s linear;
+        font-weight: 700;
+        font-family: "brandon grotesque", sans-serif; }
       #services .content--grid .pk__img .reel__img {
         max-width: 100%;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
@@ -1390,6 +1458,9 @@ footer {
       transition: all .2s ease-in-out; }
       #services .content--grid .pk__img:hover {
         transform: scale(0.9); }
+      #services .content--grid .pk__img.package__img1:hover::after, #services .content--grid .pk__img.package__img2:hover::after, #services .content--grid .pk__img.package__img3:hover::after, #services .content--grid .pk__img.package__img4:hover::after {
+        padding: 2.75em 0;
+        font-size: 2.5em; }
       #services .content--grid .pk__img .reel__img {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); } }
 
@@ -1578,6 +1649,9 @@ footer {
       transition: all .2s ease-in-out; }
       #services .content--grid .pk__img:hover {
         transform: scale(0.9); }
+      #services .content--grid .pk__img.package__img1:hover::after, #services .content--grid .pk__img.package__img2:hover::after, #services .content--grid .pk__img.package__img3:hover::after, #services .content--grid .pk__img.package__img4:hover::after {
+        padding: 4em 0;
+        font-size: 2.5em; }
       #services .content--grid .pk__img .reel__img {
         max-width: 100%;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
@@ -1775,13 +1849,14 @@ footer {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
         max-width: 100%; }
   footer .footer-block .logo-ft {
-    padding-left: 3em; }
-    footer .footer-block .logo-ft img {
-      max-width: 120px; } }
+    padding-left: 3em; } }
 
 @media only screen and (min-width: 1500px) {
   #services .content--grid {
     grid-template-columns: auto 700px 5%; }
+    #services .content--grid .pk__img.package__img1:hover::after, #services .content--grid .pk__img.package__img2:hover::after, #services .content--grid .pk__img.package__img3:hover::after, #services .content--grid .pk__img.package__img4:hover::after {
+      padding: 4.25em 0;
+      font-size: 3em; }
     #services .content--grid .pk__img .reel__img {
       max-width: 100%; }
   #work .content--grid {
