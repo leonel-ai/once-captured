@@ -11,7 +11,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/leonelaguzman/Documents/Clients/once/oncecinema/components/footer.js";
+var _jsxFileName = "/Users/leonela/Documents/misc/side_projects/once-cinema/components/footer.js";
 
 
 var Footer = function Footer(props) {
@@ -42,7 +42,7 @@ var Footer = function Footer(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/logo.svg",
+    src: "/static/logo-black.png",
     alt: "footer logo",
     __source: {
       fileName: _jsxFileName,
@@ -85,7 +85,7 @@ var Footer = function Footer(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "http://facebook.com/oncecaptured.co",
+    href: "https://www.facebook.com/ONCE-Captured-372786923420383/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -254,7 +254,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/leonelaguzman/Documents/Clients/once/oncecinema/components/head.js";
+var _jsxFileName = "/Users/leonela/Documents/misc/side_projects/once-cinema/components/head.js";
 
 
 
@@ -474,6 +474,24 @@ var Head = function Head(props) {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    dangerouslySetInnerHTML: {
+      __html: "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n      'https://www.googletagmanager.com/gtag/js?id=UA-144893460-1'+i+dl;f.parentNode.insertBefore(j,f);\n    })(window,document,'script','dataLayer','UA-144893460-1');"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("noscript", {
+    dangerouslySetInnerHTML: {
+      __html: "<iframe src=\"https://www.googletagmanager.com/gtag/js?id=UA-144893460-1\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden;\"></iframe>"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
     },
     __self: this
   }));
@@ -4038,10 +4056,10 @@ exports.default = withSideEffect;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fwork&absolutePagePath=%2FUsers%2Fleonelaguzman%2FDocuments%2FClients%2Fonce%2Foncecinema%2Fpages%2Fwork.js!./":
-/*!*****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fwork&absolutePagePath=%2FUsers%2Fleonelaguzman%2FDocuments%2FClients%2Fonce%2Foncecinema%2Fpages%2Fwork.js ***!
-  \*****************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fwork&absolutePagePath=%2FUsers%2Fleonela%2FDocuments%2Fmisc%2Fside_projects%2Fonce-cinema%2Fpages%2Fwork.js!./":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fwork&absolutePagePath=%2FUsers%2Fleonela%2FDocuments%2Fmisc%2Fside_projects%2Fonce-cinema%2Fpages%2Fwork.js ***!
+  \******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4063,12 +4081,12 @@ exports.default = withSideEffect;
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_43fdc562a96c55866f3e ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_afa7b25a60452594c240 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_43fdc562a96c55866f3e */ "dll-reference dll_43fdc562a96c55866f3e"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_afa7b25a60452594c240 */ "dll-reference dll_afa7b25a60452594c240"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -4803,12 +4821,12 @@ module.exports = ReactPropTypesSecret;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_43fdc562a96c55866f3e ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_afa7b25a60452594c240 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_43fdc562a96c55866f3e */ "dll-reference dll_43fdc562a96c55866f3e"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_afa7b25a60452594c240 */ "dll-reference dll_afa7b25a60452594c240"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -4827,7 +4845,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/footer */ "./components/footer.js");
 /* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/style.scss */ "./styles/style.scss");
 /* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/leonelaguzman/Documents/Clients/once/oncecinema/pages/work.js";
+var _jsxFileName = "/Users/leonela/Documents/misc/side_projects/once-cinema/pages/work.js";
 
 
 
@@ -4857,14 +4875,14 @@ var Work = function Work() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    class: "navbar navbar-expand-lg navbar-light bg-white",
+    className: "navbar navbar-expand-lg navbar-light bg-white",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    class: "navbar-brand",
+    className: "navbar-brand",
     href: "/",
     target: "_self",
     __source: {
@@ -4879,7 +4897,7 @@ var Work = function Work() {
     },
     __self: this
   }, "ONCE "), "Captured"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    class: "navbar-toggler collapsed",
+    className: "navbar-toggler collapsed",
     type: "button",
     "data-toggle": "collapse",
     "data-target": "#navbarNavAltMarkup",
@@ -4892,28 +4910,28 @@ var Work = function Work() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    class: "icon-bar top-bar",
+    className: "icon-bar top-bar",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    class: "icon-bar middle-bar",
+    className: "icon-bar middle-bar",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    class: "icon-bar bottom-bar",
+    className: "icon-bar bottom-bar",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "collapse navbar-collapse",
+    className: "collapse navbar-collapse",
     id: "navbarNavAltMarkup",
     __source: {
       fileName: _jsxFileName,
@@ -4921,14 +4939,14 @@ var Work = function Work() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "navbar-nav",
+    className: "navbar-nav",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    class: "nav-item nav-link",
+    className: "nav-item nav-link",
     href: "/services",
     target: "_self",
     __source: {
@@ -4937,7 +4955,7 @@ var Work = function Work() {
     },
     __self: this
   }, "Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    class: "nav-item nav-link active",
+    className: "nav-item nav-link active",
     href: "/work",
     target: "_self",
     __source: {
@@ -4946,14 +4964,14 @@ var Work = function Work() {
     },
     __self: this
   }, "Work ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    class: "sr-only",
+    className: "sr-only",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
   }, "(current)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    class: "nav-item nav-link",
+    className: "nav-item nav-link",
     href: "mailto:hi.oncecaptured@gmail.com?subject=Hello,\xA0ONCE!&body=Hi there! Don't forget to include the important details (i.e. Names and Event Date).",
     __source: {
       fileName: _jsxFileName,
@@ -5244,25 +5262,25 @@ var Work = function Work() {
 /***/ }),
 
 /***/ 3:
-/*!*********************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fwork&absolutePagePath=%2FUsers%2Fleonelaguzman%2FDocuments%2FClients%2Fonce%2Foncecinema%2Fpages%2Fwork.js ***!
-  \*********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fwork&absolutePagePath=%2FUsers%2Fleonela%2FDocuments%2Fmisc%2Fside_projects%2Fonce-cinema%2Fpages%2Fwork.js ***!
+  \**********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fwork&absolutePagePath=%2FUsers%2Fleonelaguzman%2FDocuments%2FClients%2Fonce%2Foncecinema%2Fpages%2Fwork.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fwork&absolutePagePath=%2FUsers%2Fleonelaguzman%2FDocuments%2FClients%2Fonce%2Foncecinema%2Fpages%2Fwork.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fwork&absolutePagePath=%2FUsers%2Fleonela%2FDocuments%2Fmisc%2Fside_projects%2Fonce-cinema%2Fpages%2Fwork.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fwork&absolutePagePath=%2FUsers%2Fleonela%2FDocuments%2Fmisc%2Fside_projects%2Fonce-cinema%2Fpages%2Fwork.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_43fdc562a96c55866f3e":
+/***/ "dll-reference dll_afa7b25a60452594c240":
 /*!*******************************************!*\
-  !*** external "dll_43fdc562a96c55866f3e" ***!
+  !*** external "dll_afa7b25a60452594c240" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_43fdc562a96c55866f3e;
+module.exports = dll_afa7b25a60452594c240;
 
 /***/ })
 
