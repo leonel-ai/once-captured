@@ -79,7 +79,7 @@ const Work = () => (
 
       <Fade bottom>
       <div className="gallery--subtext text-2 order-6">
-        <HeadShake forever duration="3000" delay="500">
+        <HeadShake forever duration={3000} delay={500}>
         <h4 className="cta">
           <a href="/services" target="_self" className="icon-block">
             Check out our services &nbsp;&nbsp;<i className="fas fa-long-arrow-alt-right"></i>
@@ -96,7 +96,7 @@ const Work = () => (
         <h3 className="gallery__title display-4">SAY<br/>I DO</h3>
         <p>Reservations fill up fast.<br/>Contact us for availability today.</p>
       </Fade>
-      <Pulse forever duration="1800">
+      <Pulse forever duration={1800}>
         <p className="contact-cta"><a href="/services" target="_self" className="contact-btn">Book a date</a></p>
       </Pulse>
       </div>

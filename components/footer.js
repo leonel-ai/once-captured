@@ -26,7 +26,7 @@ const Footer = props => (
             </a>
           </li>
           </Fade>
-          <Fade left delay="300">
+          <Fade left delay={300}>
           <li>
             <a href="http://instagram.com/_oncecaptured/">
               <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@ const Footer = props => (
             </a>
           </li>
           </Fade>
-          <Fade left delay="700">
+          <Fade left delay={700}>
           <li>
             <a href="http://vimeo.com/oncecaptured">
               <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,7 +54,6 @@ const Footer = props => (
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossOrigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossOrigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossOrigin="anonymous"></script>
-    <script src="https://player.vimeo.com/api/player.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144893460-1"></script>
 
   </footer>

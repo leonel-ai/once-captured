@@ -91,7 +91,7 @@ class Services extends React.Component {
         </div>
         <Fade bottom>
         <div className="services__preface">
-        <HeadShake forever duration="3000" delay="500">
+        <HeadShake forever duration="{3000}" delay="{500}">
           <h5 className="cta">
             <p className="icon-block">
               Click an image to view our media packages below &nbsp;&nbsp;<i className="fas fa-long-arrow-alt-right"></i>

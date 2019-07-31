@@ -5,7 +5,7 @@ class VideoPlayer extends React.Component {
         return (
             <ReactPlayer
                 url="https://player.vimeo.com/video/349732658"
-                playing loop volume="{0}" muted height="400"
+                playing loop volume={0} muted height="auto"
             />
         );
     }

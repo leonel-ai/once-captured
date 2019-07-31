@@ -20,7 +20,7 @@ class Home extends React.Component {
             <div className="brand">
               <img className="img-fluid" src="/static/logo-black.png" alt="brand logo"/>
             </div>
-            <Pulse forever duration="1800">
+            <Pulse forever duration={1800}>
             <div className="cta">
               <a href="/services" className="icon-block" target="_self">
                 Work with us &nbsp;&nbsp;<i className="fas fa-long-arrow-alt-right"></i>
@@ -39,7 +39,7 @@ class Home extends React.Component {
               <Fade bottom>
               <h2 className="work-title">WORK</h2>
                 <p className="work-content">The adventure starts here.</p>
-                <HeadShake forever duration="3000">
+                <HeadShake forever duration={3000}>
                 <i className="fas fa-long-arrow-alt-right"></i>
                 </HeadShake>
               </Fade>
@@ -50,7 +50,7 @@ class Home extends React.Component {
               <Fade bottom>
               <h2 className="services-title">SERVICES</h2>
                 <p className="services-content">Book your next big event.</p>
-                <HeadShake forever duration="3000">
+                <HeadShake forever duration={3000}>
                 <i className="fas fa-long-arrow-alt-right"></i>
                 </HeadShake>
               </Fade>
