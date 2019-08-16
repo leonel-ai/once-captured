@@ -21,6 +21,7 @@ const Work = () => (
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
+            <a className="nav-item nav-link" href="/" target="_self">Home</a>
               <a className="nav-item nav-link" href="/services" target="_self">Services</a>
               <a className="nav-item nav-link active" href="/work" target="_self">Work <span className="sr-only">(current)</span></a>
               <a className="nav-item nav-link"

@@ -510,7 +510,7 @@ img {
       display: none;
       color: $color-content-text;
 
-      .luxe_01, .luxe_02, .luxe_03, .luxe_04 {
+      .luxe_01, .luxe_02, .luxe_03, .luxe_04, .addon {
         margin-bottom: 1em;
 
         h2 {
@@ -735,6 +735,9 @@ footer {
   .package__img4 {
     grid-row: 5;
   }
+  .package__img5 {
+    grid-row: 6;
+  }
   .package {
     grid-column: 3;
     align-self: start;
@@ -759,7 +762,9 @@ footer {
   .package__block4 {
     grid-row: 5;
   }
-
+  .package__block5 {
+    grid-row: 6;
+  }
 }
 #contact {
   .form-container {
@@ -1247,16 +1252,8 @@ footer {
         max-width: 300px;
       }
       .package__text {
-        hyphens: auto;
-        position: absolute;
-        top: 4%;
-        max-width: 280px;
-        margin: 0;
-        grid-column: 1;
-        grid-row: 5;
-        color: $color-content-text;
 
-        .luxe_01, .luxe_02, .luxe_03, .luxe_04 {
+        .luxe_01, .luxe_02, .luxe_03, .luxe_04, .addon {
           visibility: collapse;
           overflow: hidden;
           opacity: 0;
@@ -1323,19 +1320,6 @@ footer {
       #cards {
         grid-row: 2 / 4;
         grid-column: 2;
-        // .slick-slider {
-        //   .slick-list {
-        //     height: 40em;
-        //   }
-        // }
-        // .card {
-        //   .card-body {
-        //     min-height: 397px;
-        //     .card-text {
-        //       min-height: 268px;
-        //     }
-        //   }
-        // }
       }
     }
   }
@@ -1446,7 +1430,6 @@ footer {
       }
     }
   }
-
   .subpage {
     .menu__head {
       nav {
@@ -1457,7 +1440,6 @@ footer {
       }
     }
   }
-
   #work .content--grid {
     padding: 0 3rem 3rem;
     grid-column-gap: 1rem;
@@ -1656,12 +1638,11 @@ footer {
     //   }
     // }
   }
-
   #services .content--grid {
       padding: 0 3rem 28rem;
       grid-template-columns: 50% 400px auto;
       grid-column-gap: 1rem;
-      grid-template-rows: 16% auto;
+      grid-template-rows: 5% auto;
       grid-template-areas: 'back ... ...' 'title reel ...' 'text reel ...' 'luxe reel ...' 'social reel ...';
       .services__block {
         .content__title {
@@ -1672,7 +1653,11 @@ footer {
         display: block;
         align-self: start;
         grid-row: 4;
-        margin-top: 4em;
+        margin-top: 2em;
+
+        &.hidden {
+          opacity: 0;
+        }
         .cta {
           margin-bottom: 1em;
           p { color: $color-accent; }
@@ -1696,14 +1681,16 @@ footer {
         display: block;
         hyphens: auto;
         position: absolute;
-        top: 14%;
-        max-width: 380px;
+        top: 47%;
+        left: 25%;
+        transform: translate(-50%, -25%);
+        max-width: 500px;
+        padding: .5em 3em;
         margin: 0;
-        grid-column: 1;
-        grid-row: 4;
         color: $color-content-text;
+        background: white;
 
-        .luxe_01, .luxe_02, .luxe_03, .luxe_04 {
+        .luxe_01, .luxe_02, .luxe_03, .luxe_04, .addon {
           visibility: collapse;
           overflow: hidden;
           opacity: 0;
@@ -1843,6 +1830,26 @@ footer {
             font-family: $brandon;
           }
         }
+        &.package__img5 {
+          &:hover::after {
+            content: 'ADD-ONS';
+            top: 50%;
+            position: absolute;
+            left: 50%;
+            color: white;
+            letter-spacing: .026em;
+            background: rgba(0, 0, 0, .5);
+            padding: 3.5em 0;
+            text-align: center;
+            font-size: 2em;
+            width: 100%;
+            height: 100%;
+            transform: translate(-50%, -50%);
+            transition: all .5s linear;
+            font-weight: 700;
+            font-family: $brandon;
+          }
+        }
 
         .reel__img {
           max-width: 100%;
@@ -1962,7 +1969,7 @@ footer {
     padding: 0 3rem 24em;
     grid-template-columns: auto 400px 5%;
     grid-column-gap: 1rem;
-    grid-template-rows: 8% auto;
+    grid-template-rows: 5% auto;
     grid-template-areas: 'back ... ...' 'title reel ...' 'text reel ...' 'luxe reel ...' 'social reel ...';
     .services__block {
       .content__title {
@@ -1987,16 +1994,19 @@ footer {
       max-width: 440px;
     }
     .package__text {
+      display: block;
       hyphens: auto;
       position: absolute;
-      top: 12%;
-      max-width: 380px;
+      top: 47%;
+      left: 24%;
+      transform: translate(-50%, -24%);
+      max-width: 480px;
+      padding: 0em 2em;
       margin: 0;
-      grid-column: 1;
-      grid-row: 4 / 9;
       color: $color-content-text;
+      background: white;
 
-      .luxe_01, .luxe_02, .luxe_03, .luxe_04 {
+      .luxe_01, .luxe_02, .luxe_03, .luxe_04, .addon {
         visibility: collapse;
         overflow: hidden;
         opacity: 0;
@@ -2054,7 +2064,7 @@ footer {
       }
 
       &.package__img1, &.package__img2,
-      &.package__img3, &.package__img4  {
+      &.package__img3, &.package__img4, &.package__img5 {
         &:hover::after {
           padding: 2.75em 0;
           font-size: 2.5em;
@@ -2276,7 +2286,8 @@ footer {
     }
     .services__preface {
       grid-row: 3;
-      align-self: end;
+      align-self: center;
+      margin-top: 15em;
 
       .cta {
         margin-bottom: 1em;
@@ -2291,16 +2302,11 @@ footer {
       max-width: 460px;
     }
     .package__text {
-      hyphens: auto;
-      position: absolute;
-      top: 0;
-      max-width: 380px;
-      margin: 0;
-      grid-column: 1;
-      grid-row: 4 / 5;
-      color: $color-content-text;
+      top: 39%;
+      left: 20%;
+      transform: translate(-50%, -20%);
 
-      .luxe_01, .luxe_02, .luxe_03, .luxe_04 {
+      .luxe_01, .luxe_02, .luxe_03, .luxe_04, .addon {
         visibility: collapse;
         overflow: hidden;
         opacity: 0;
@@ -2359,7 +2365,7 @@ footer {
       }
 
       &.package__img1, &.package__img2,
-      &.package__img3, &.package__img4  {
+      &.package__img3, &.package__img4, &.package__img5  {
         &:hover::after {
           padding: 4em 0;
           font-size: 2.5em;
@@ -2602,6 +2608,8 @@ footer {
     }
     .services__preface {
       align-self: end;
+      margin-top: 0;
+      margin-bottom: 1.75em;
       .cta {
         margin-bottom: 1em;
         p { color: $color-accent; }
@@ -2612,14 +2620,9 @@ footer {
       }
     }
     .package__text {
-      hyphens: auto;
-      position: absolute;
-      max-width: 380px;
-      margin: 0;
-      grid-column: 1;
-      color: $color-content-text;
 
-      .luxe_01, .luxe_02, .luxe_03, .luxe_04 {
+
+      .luxe_01, .luxe_02, .luxe_03, .luxe_04, .addon {
         visibility: collapse;
         overflow: hidden;
         opacity: 0;
@@ -2699,13 +2702,17 @@ footer {
   #services .content--grid {
     grid-template-columns: auto 700px 5%;
     .services__preface {
-      align-self: end;
       align-self: center;
-      margin-top: 8em;
+      margin-top: 5em;
+      margin-bottom: 0;
+    }
+    .package__text {
+      top: 36%;
+      left: 18%;
     }
     .pk__img {
       &.package__img1, &.package__img2,
-      &.package__img3, &.package__img4  {
+      &.package__img3, &.package__img4, &.package__img5 {
         &:hover::after {
           padding: 4.25em 0;
           font-size: 3em;

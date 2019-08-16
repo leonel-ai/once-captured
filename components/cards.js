@@ -15,7 +15,7 @@ class Cards extends React.Component {
         <Slider {...settings}>
           <div>
             <div className="card">
-              <img src="/static/astros.jpg" className="card-img-top" alt="..." />
+              <img src="/static/addon-2.jpg" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h3 className="card-title">Luxe I</h3>
                   <div className="row card-text">
@@ -127,7 +127,7 @@ class Cards extends React.Component {
 
           <div>
             <div className="card">
-              <img src="/static/venue.jpg" className="card-img-top" alt="..." />
+              <img src="/static/addon-1.jpg" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h3 className="card-title">Add-ons</h3>
                   <div className="row card-text">
@@ -140,7 +140,7 @@ class Cards extends React.Component {
                           <br/>2 - 3 hrs shot on location
                           <br/>2 min film + 30 sec invitation with graphics — <b>$500</b></p></li>
                         <li><p><span>PHOTOGRAPHY SERVICES</span>
-                          <br/>Available on request</p></li>
+                          <br/>Available upon request</p></li>
                       </ul>
                     </div>
                   </div>
@@ -150,7 +150,7 @@ class Cards extends React.Component {
 
           <div>
             <div className="card">
-              <img src="/static/venue.jpg" className="card-img-top" alt="..." />
+              <img src="/static/astros.jpg" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h3 className="card-title">Add-ons</h3>
                   <div className="row card-text">
