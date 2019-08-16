@@ -1,6 +1,5 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
-import HeadShake from 'react-reveal/HeadShake';
 import Pulse from 'react-reveal/Pulse'
 import Head from '../components/head'
 import Footer from '../components/footer'
@@ -48,8 +47,8 @@ class Services extends React.Component {
       <div className="subpage" id="services">
       <Head title="ONCE | Services" />
 
-      <div className="mobile__head">
-        <nav className="navbar navbar-expand-lg navbar-light bg-white">
+      <div className="menu__head">
+        <nav className="navbar navbar-light bg-white">
           <a className="navbar-brand" href="/" target="_self"><span>ONCE </span>Captured</a>
             <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="icon-bar top-bar"></span>
@@ -74,7 +73,6 @@ class Services extends React.Component {
           <h1 className="content__title-subhead">ONCE Captured</h1>
         </Fade>
           <div className="content__text--desktop">
-          <Fade bottom>
             <p>
               By now, you've probably scoped out a few wedding sites. So what makes us different?
             </p>
@@ -85,19 +83,17 @@ class Services extends React.Component {
               you the A-list treatment in the role of your life.
             </p>
             <p><b>We take film seriously.</b> Ourselves? Not so much. Expect professional, creative, and friendly service come rain or shine.</p>
-            <p><b>We keep it short.</b></p>
-          </Fade>
+            <p><b>We love a good story.</b> With a documentarian approach, we aim to capture
+              the authentic moments that matter the most to you.</p>
           </div>
         </div>
-        <Fade bottom>
+        <Fade>
         <div className="services__preface">
-        <HeadShake forever duration="{3000}" delay="{500}">
           <h5 className="cta">
             <p className="icon-block">
               Click an image to view our media packages below &nbsp;&nbsp;<i className="fas fa-long-arrow-alt-right"></i>
             </p>
           </h5>
-          </HeadShake>
 
           <p className="content__text">
             Looking to add photography services?
@@ -208,7 +204,7 @@ class Services extends React.Component {
         </div>
         <a className="content__back--link" href="/" target="_self"><button className="content__back" aria-label="back to main view"></button></a>
 
-        <Fade bottom>
+        <Fade>
         <div className="package package__block1">
           <h2>01</h2>
         </div>
@@ -227,8 +223,9 @@ class Services extends React.Component {
 
         <Fade bottom>
         <div className="content__text--mobile">
-          <p>All <span>raw footage</span> can be purchased for an additional fee. <span>Travel</span> destination packages and photography services
-            also available upon request.</p>
+          <p>Each package includes a non-refundable <b>$500</b> retainer. <span>Travel</span> destination packages, photography services, and
+            additional arrangements — including all stages of film production and special additions such as live wedding painting —
+            are also available upon request.</p>
           <p>Reservations fill up fast. <span>Contact us</span> for availability today.</p>
         </div>
         </Fade>

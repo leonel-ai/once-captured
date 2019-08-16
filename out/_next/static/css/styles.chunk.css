@@ -231,42 +231,42 @@ img {
           transform: scale(1.1);
           z-index: -1; }
 
-.mobile__head nav {
+.menu__head nav {
   font-family: "calluna", serif; }
-  .mobile__head nav .navbar-brand span {
+  .menu__head nav .navbar-brand span {
     font-weight: 900; }
-  .mobile__head nav .navbar-toggler {
+  .menu__head nav .navbar-toggler {
     border: none;
     background: transparent !important;
     outline: none; }
-    .mobile__head nav .navbar-toggler .icon-bar {
+    .menu__head nav .navbar-toggler .icon-bar {
       display: block;
       width: 22px;
       height: 2px;
       border-radius: 1px;
       background-color: #888;
       transition: all 0.2s; }
-    .mobile__head nav .navbar-toggler .icon-bar + .icon-bar {
+    .menu__head nav .navbar-toggler .icon-bar + .icon-bar {
       margin-top: 4px; }
-    .mobile__head nav .navbar-toggler .top-bar {
+    .menu__head nav .navbar-toggler .top-bar {
       transform: rotate(45deg);
       transform-origin: 10% 10%; }
-    .mobile__head nav .navbar-toggler .middle-bar {
+    .menu__head nav .navbar-toggler .middle-bar {
       opacity: 0; }
-    .mobile__head nav .navbar-toggler .bottom-bar {
+    .menu__head nav .navbar-toggler .bottom-bar {
       transform: rotate(-45deg);
       transform-origin: 10% 90%; }
-    .mobile__head nav .navbar-toggler.collapsed .top-bar {
+    .menu__head nav .navbar-toggler.collapsed .top-bar {
       transform: rotate(0); }
-    .mobile__head nav .navbar-toggler.collapsed .middle-bar {
+    .menu__head nav .navbar-toggler.collapsed .middle-bar {
       opacity: 1; }
-    .mobile__head nav .navbar-toggler.collapsed .bottom-bar {
+    .menu__head nav .navbar-toggler.collapsed .bottom-bar {
       transform: rotate(0); }
-  .mobile__head nav .navbar-nav {
+  .menu__head nav .navbar-nav {
     padding: 1em 1em 0;
     text-align: right; }
 
-.mobile__head .navbar .navbar-nav .nav-item.nav-link {
+.menu__head .navbar .navbar-nav .nav-item.nav-link {
   font-family: "brandon grotesque", sans-serif;
   text-transform: uppercase;
   font-weight: 700; }
@@ -1066,7 +1066,7 @@ footer {
         max-width: 52px; }
     .container-fluid .highlight-block .video-container .video-item .video-player .video-wrapper {
       padding-bottom: 39%; }
-  .subpage .mobile__head {
+  .subpage .menu__head {
     display: none; }
   #work .content--grid {
     padding: 0 3rem 3rem;

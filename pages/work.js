@@ -11,8 +11,8 @@ const Work = () => (
   <div className="subpage" id="work">
     <Head title="ONCE | Work" />
 
-    <div className="mobile__head">
-        <nav className="navbar navbar-expand-lg navbar-light bg-white">
+    <div className="menu__head">
+        <nav className="navbar navbar-light bg-white">
           <a className="navbar-brand" href="/" target="_self"><span>ONCE </span>Captured</a>
           <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="icon-bar top-bar"></span>
@@ -37,12 +37,12 @@ const Work = () => (
         <h1 className="gallery__title-subhead">ONCE Captured</h1>
       </Fade>
       </div>
-      <Fade bottom>
+
         <p className="gallery__text">
         Whether it's a few weeks, a month, or a year away, you can rest assured you've taken care of the most essential steps
         in planning your wedding day.
         </p>
-      </Fade>
+
 
       <div className="gallery--wrapper item-1 order-1">
         <div className="gallery--item-content">
@@ -79,13 +79,11 @@ const Work = () => (
 
       <Fade bottom>
       <div className="gallery--subtext text-2 order-6">
-        <HeadShake forever duration={3000} delay={500}>
         <h4 className="cta">
           <a href="/services" target="_self" className="icon-block">
             Check out our services &nbsp;&nbsp;<i className="fas fa-long-arrow-alt-right"></i>
           </a>
         </h4>
-        </HeadShake>
         <p>Given our love of cinema and experience in film production, you can expect to get the star treatment from beginning to end
           with a silver-screen quality production.</p>
       </div>

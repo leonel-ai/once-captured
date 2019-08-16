@@ -10,6 +10,7 @@ const defaultOGImage = '/static/mansion.jpg'
 const Head = props => (
   <NextHead>
     <meta charSet="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>{props.title || ''}</title>
     <meta
       name="description"
