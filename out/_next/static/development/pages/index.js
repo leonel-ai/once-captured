@@ -9335,7 +9335,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!*******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fleonela%2FDocuments%2Fmisc%2Fside_projects%2Fonce-cinema%2Fpages%2Findex.js ***!
   \*******************************************************************************************************************************************************/
@@ -9358,5 +9358,5 @@ module.exports = dll_afa7b25a60452594c240;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

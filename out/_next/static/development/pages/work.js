@@ -5421,7 +5421,7 @@ var Work = function Work() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 2:
 /*!**********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fwork&absolutePagePath=%2FUsers%2Fleonela%2FDocuments%2Fmisc%2Fside_projects%2Fonce-cinema%2Fpages%2Fwork.js ***!
   \**********************************************************************************************************************************************************/
@@ -5444,5 +5444,5 @@ module.exports = dll_afa7b25a60452594c240;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=work.js.map
