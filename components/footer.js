@@ -8,6 +8,7 @@ const Footer = props => (
       <Fade bottom>
       <div className="col-12 col-md-6 logo-ft">
         <img src="/static/logo-black.png" alt="footer logo"/>
+        <p>&copy; Photography by <a href="http://www.graciedays.com/portfolio" target="_blank">Gracie Days</a></p>
       </div>
       </Fade>
       <Fade bottom>
